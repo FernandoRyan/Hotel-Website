@@ -162,6 +162,7 @@ display: none;
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
+    color:darken;
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
