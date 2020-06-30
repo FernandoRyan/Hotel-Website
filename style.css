@@ -176,9 +176,9 @@ display: none;
     transform: scale(1.1);
 }
 .fast{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 300;
-    color: black;
-    font-family: Courier new;
+    color: white;
+    font-family: Courier New;
 
 }
