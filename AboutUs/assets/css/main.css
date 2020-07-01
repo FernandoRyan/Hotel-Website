@@ -1679,7 +1679,7 @@
 			#banner input[type="button"].special,
 			#banner button.special,
 			#banner .button.special {
-				background-color: #ababab;
+				background-color: #2d2c2c;
 				color: #fff !important;
 			}
 
@@ -1848,7 +1848,7 @@
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px #e3e3e3;
+				border-left: solid 1px #141414;
 				display: inline-block;
 				list-style: none;
 				margin-left: 1.5em;
