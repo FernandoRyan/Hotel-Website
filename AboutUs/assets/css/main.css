@@ -1794,13 +1794,13 @@
 
 	#footer {
 		background-color: #f7f7f7;
-		color: #444;
+		color: #4a4a4a;
 		padding: 5em 0 4em 0;
 		position: relative;
 	}
 
 		#footer input, #footer select, #footer textarea {
-			color: #555;
+			color: #4a4a4a;
 		}
 
 		#footer a {
@@ -1808,7 +1808,7 @@
 		}
 
 		#footer strong, #footer b {
-			color: #555;
+			color: #4a4a4a;
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
@@ -1825,11 +1825,11 @@
 		}
 
 		#footer hr {
-			border-bottom-color: #ddd;
+			border-bottom-color: #4a4a4a;
 		}
 
 		#footer:before {
-			background-color: #ddd;
+			background-color:#4a4a4a;
 			content: '';
 			height: 1px;
 			left: 30%;
