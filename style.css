@@ -157,12 +157,11 @@ display: none;
 .subtitle{
     font-size: 3.5rem;
     font-weight: 300;
-    font-family: 
+    font-family: Courgette;
 }
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
-    color:darken;
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
