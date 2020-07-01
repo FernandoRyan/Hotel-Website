@@ -58,6 +58,12 @@ section{
     align-items: center;
 }
 
+.form-btn
+{
+    margin-top: 2.5rem;
+    cursor: pointer;
+
+}
 /*Header styling*/
 .header{
     width: 100%;
@@ -67,8 +73,12 @@ section{
     position: fixed;
     top: 0;
     left: 0;
-    background-color:var(  --purple-transparent);
+    background-color:var( --purple-transparent);
     z-index: 999;
+    transition: background-color .5s ,height .5s;
+}
+.header.active{
+    background-color: var(--purple-solid);
 }
 /*Header styles-nav*/
 .nav{
@@ -118,7 +128,7 @@ display: none;
     opacity: 1;
     transform: scale(1);
 }
-.nav-item:not(:last-child){
+.nav-item:not(last-child){
 
     margin-bottom: .5rem;
 }
@@ -147,12 +157,13 @@ display: none;
   z-index: 0;
 }
 .hero::before{
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: inherit;
     height: inherit;
-    background-color:var( --purple-transparent);
+    background-color:var( --purple-transparent-alt);
     z-index: -1;
 }
 .main-heading{
@@ -178,3 +189,42 @@ display: none;
     background-image: var(--gradient-color-alt);
 }
 
+.dots{
+    font-size: 2.5rem;
+    margin-left: .5rem;
+    opacity: .75;
+}
+/*Booking section styles*/
+.book{
+    background-image: var(--gradient-color)
+}
+.input-group{
+    margin-bottom: 1.5rem;
+}
+.input-label{
+    display: block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.input,
+.options{
+    outline: none;
+    border: none;
+    width: 100%;
+    min-height: 4rem;
+    padding: 1rem;
+    font-weight: bold;
+    color: darkgrey;
+    font-family: sans-serif;
+    /*resize: none;*/ /*Conatct form*/
+
+}
+
+.btn-purple{
+    background-color:var(--purple-solid);
+   } 
+   .btn-purple:hover{
+    background-color: var(--purple-light);
