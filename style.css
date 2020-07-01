@@ -178,9 +178,4 @@ display: none;
 .btn-gradient:hover{
     background-image: var(--gradient-color-alt);
 }
-.dots{
-    font-size: 2.5rem;
-    margin-left: 1.5rem;
-    opacity: .75;
-}
 
