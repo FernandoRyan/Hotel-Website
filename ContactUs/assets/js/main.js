@@ -1,8 +1,9 @@
-/*
-	Typify by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+let header = document.querySelector('.header');
+let hamburgermenu = document.querySelector('.hamburger-menu');
+
+hamburgermenu.addEventListener("click", function(){
+ header.classList.toggle('menu-open');
+});
 
 (function($) {
 
