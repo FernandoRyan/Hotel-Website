@@ -85,7 +85,7 @@ section{
     position: fixed;
     top: 0;
     left: 0;
-    background-color:var( --purple-transparent);
+    background-color:#514639;
     z-index: 999;
     transition: background-color .5s ,height .5s;
 }
@@ -126,7 +126,7 @@ display: none;
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: var(--purple-solid);
+    background-color: var(--purple-transparent-alt);
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -221,7 +221,6 @@ display: none;
     color: darkgrey;
     font-family: sans-serif;
     /*resize: none;*/ /*Conatct form*/
-
 }
 
 .btn-purple{
@@ -233,6 +232,81 @@ display: none;
 ::placeholder{
     color: inherit;
 }
+
+/*About us*/
+
+#hotel-introduction
+{
+    padding:5rem 0;
+    text-align:left;
+    background:#f4f4df;
+    margin-bottom:5rem;
+}
+
+    #hotel-introduction .hotel-introduction-inner{
+        padding-right:16%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        height:54.75rem;}
+    #hotel-introduction .hotel-introduction-inner .hotel-logo
+    {
+        margin-bottom:1rem;
+        width:20rem;
+    }
+    #hotel-introduction .hotel-introduction-inner h1
+    {
+        font-size:2.25rem;
+        text-transform:uppercase;
+        color:#000;
+    }
+    #hotel-introduction .hotel-introduction-inner h1 span
+    {
+        display:block;
+        font-size:1.4375rem;
+        color:#606d23;
+    }
+    #hotel-introduction .hotel-introduction-inner h2
+    {
+    font-family: 'Raleway', sans-serif;
+    font-size:1.5625rem;
+    margin-bottom:3rem;
+    }
+    
+    #hotel-introduction .hotel-introduction-inner .description
+    {
+        margin-bottom:2rem;
+    }
+    #hotel-introduction .hotel-introduction-inner .description ,p
+    {
+        margin-bottom:2rem;
+    }
+    
+    #hotel-introduction .intro-image .img-holder
+    {
+        height:54.75rem;
+        overflow:hidden;
+    }
+    #hotel-introduction .intro-image .img-holder img{
+        width:100%;
+        height: 100vh;
+    }
+    
+    @media (max-width: 1201px){
+        #hotel-introduction .hotel-introduction-inner{padding:0 10%;}
+    }
+
+    @media (max-width: 992px){
+        #hotel-introduction .hotel-introduction-inner{text-align:center;padding:0 10% 5rem;}
+    }
+    
+    @media (max-width: 768px){
+        #hotel-introduction .hotel-introduction-inner{height:auto!important;}
+        
+        #hotel-introduction .intro-image .img-holder{height:auto;overflow:hidden;}
+        #hotel-introduction .intro-image .img-holder img{position:relative!important;width:100%!important;height:auto;}
+    }
+
 /*Featured offers styling*/
 .section-head{
     text-align: center;

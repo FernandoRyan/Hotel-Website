@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hotel Sanremo</title>
+    <!-- Bootsrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--Font awesome CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -56,15 +55,30 @@
 	<main>
 		<div class="hero">
 			<div class="container">
-				<div class="main-heading">
-				<h1 class="title">Discover</h1>
-				<h2 class="subtitle">Hotel Sanremo</h2>
-			</div>
-			<a href="#" class="btn btn-gradient">
-			<span class="dots"><i class="fas">Explore now...</i></span>
-		</a>
+				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 		</div>
 	</div>
+</main>
 	<section class="book">
 		<div class="container">
 			<form action="" class="form">
@@ -105,6 +119,36 @@
 				<button type="submit" class=" btn form-btn btn-purple">Check Avaliability<span class="dots"><i fas fa-ellipsis-h></i></span> </button>
 			</form>
 		</div>	
+	</section>
+	<section>
+		<div class="container">
+		<div id="hotel-introduction">
+    	<div class="container fullwidth">
+        	<div class="row">
+                <div class="col-lg-4 col-lg-offset-1 col-md-5 col-sm-12">
+                	<div class="hotel-introduction-inner">
+                    	<div>
+                        	<img src="" alt="" class="hotel-logo">
+                            <h1><span>WELCOME TO</span> Hotel Sanremo</h1>
+                            <h2>A place to Live the </h2>
+                            
+                            <div class="description"><p>Heading please suggest</p>
+			<p>Since 1872 every day we have been trying to make your life a work of art, as Oscar Wilde said: the splendor of the past and the comforts of the present, merged together to bring you pleasure..</p>
+			<p>Every sense is stimulated: the view from the subtropical park, from the swimming pool designed by Giò Ponti and from the sea that surrounds us; the sense of smell from the scents of flowers and our cuisine; hearing from silence, enhanced by the sounds of nature; the taste from awakening to goodnight, with the flavors of our chefs; touch from immersion in an environment designed to lighten the body and mind</p>
+			</div>
+		</div>
+	</div> 
+</div>
+<div class="col-lg-7  ">
+             <div class="intro-image">
+                 <div class="img-holder" class="img" >
+                   <picture><img src="https://www.jetwinghotels.com/jetwinglake/wp-content/uploads/sites/8/2018/08/JWLK-Exterior-Night-View-1742x871.jpg" alt="Exterior View at Night"></picture>
+               </div>
+                    </div>
+                </div>
+            </div>	
+        </div>
+    </div>
 	</section>
 	<section class="hotel">
 		<div class="container">
@@ -189,6 +233,10 @@
 </div>
 	</section>
 	</main>
+	<!-- Javascript -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
