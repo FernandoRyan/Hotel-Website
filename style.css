@@ -64,6 +64,18 @@ section{
     cursor: pointer;
 
 }
+.btn-gradient{
+    background-image: var(--gradient-color);
+}
+.btn-gradient:hover{
+    background-image: var(--gradient-color-alt);
+}
+
+.dots{
+    font-size: 2.5rem;
+    margin-left: .5rem;
+    opacity: .75;
+}
 /*Header styling*/
 .header{
     width: 100%;
@@ -182,18 +194,7 @@ display: none;
     font-weight: 300;
     font-family: 'Courgette', cursive;
 }
-.btn-gradient{
-    background-image: var(--gradient-color);
-}
-.btn-gradient:hover{
-    background-image: var(--gradient-color-alt);
-}
 
-.dots{
-    font-size: 2.5rem;
-    margin-left: .5rem;
-    opacity: .75;
-}
 /*Booking section styles*/
 .book{
     background-image: var(--gradient-color)
@@ -226,5 +227,102 @@ display: none;
 .btn-purple{
     background-color:var(--purple-solid);
    } 
-   .btn-purple:hover{
+.btn-purple:hover{
     background-color: var(--purple-light);
+}
+::placeholder{
+    color: inherit;
+}
+/*Featured offers styling*/
+.section-head{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.heading{
+    display: block;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.sub-heading{
+    font-size: 1.7rem;
+    font-family: 'Courgette',cursive;
+    font-weight: 300;
+    color: #a5a5a5a5;
+}
+.grid{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 5fr));
+}
+.grid-item{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
+}
+.grid-item:hover{
+     opacity:0.7;
+}
+.feautured-offers{
+    height: 35rem;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+    z-index: 0;
+}
+.feautured-offers::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;
+    background-color: var(--purple-transparent-alt);
+    z-index: -1;
+}
+.hotel-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+.btn1{
+    max-width: 20rem;
+}
+.rating{
+    color: orange;
+}
+.offer{
+    background: linear-gradient(to right,rgba(250,150,44,.8),rgba(143,88,251,.8)),
+    url(dine.jpg) bottom center no-repeat;
+}
+.offer-content{
+    background-color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.discount{
+    background-color: var(--yellow-solid);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+    text-transform:uppercase;
+    outline: 3px solid var(--yellow-solid);
+    outline-offset: .5rem;
+}
+.paragraph{
+    color: #a5a5a5a5;
+    margin-bottom: 2.5rem;
+    font-weight: bold;
+}
