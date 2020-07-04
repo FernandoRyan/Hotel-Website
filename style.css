@@ -1,5 +1,10 @@
 /*Import the fonts used*/
+@font-face {
+    font-family: Gotham-Font;
+    src:local("C:\Users\ryana\OneDrive\Desktop\Cloned Repository\Hotel-Website\Gotham-Font");
+}
 @import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans+Condensed:wght@300&display=swap');
 /*Basic reset*/
 *,
 *::before,
@@ -29,21 +34,29 @@ body{
     font-size: 1.7rem;
     color: var(--dark-color);
 }
-h2::selection{background:#000;color:#fff;}
-h2::-moz-selection{background:#000;color:#fff;}
-h2::-webkit-selection{background:#000;color:#fff;}
+.dot {
+  height: 9px;
+  width: 9px;
+  background-color:var(--dark-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
 
-h3::selection{background:#000;color:#fff;}
-h3::-moz-selection{background:#000;color:#fff;}
-h3::-webkit-selection{background:#000;color:#fff;}
-
-h4::selection{background:#000;color:#fff;}
-h4::-moz-selection{background:#000;color:#fff;}
-h4::-webkit-selection{background:#000;color:#fff;}
-
-h5::selection{background:#000;color:#fff;}
-h5::-moz-selection{background:#000;color:#fff;}
-h5::-webkit-selection{background:#000;color:#fff;}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -56,6 +69,7 @@ section{
 }
 /*Reusable styles*/
 .container{
+   height: auto!important;
     width: 100%;
     max-width: 120rem;
     padding: 0 1.5rem;
@@ -178,46 +192,33 @@ display: none;
     font-size: 4.8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: 'Gotham';
 }
 .subtitle{
     color: #cca42f;
     font-size: 3.8rem;
     font-weight: 300;
-    font-family: 'Courgette' ,cursive;
+    font-family: 'Gotham' ,cursive;
 }
 /*Booking section styles*/
-.book{
-    background-image: var(--gradient-color)
+td{
+    margin-left: 2px;
+    margin-right: 3px;
 }
-.input-group{
-    margin-bottom: 1.5rem;
+.form-head{
+    font-size: 2rem;
+
 }
-.input-label{
-    display: block;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-.input,
-.options{
-    outline: none;
-    border: none;
-    width: 100%;
-    min-height: 4rem;
-    padding: 1rem;
-    font-weight: bold;
-    color: darkgrey;
-    font-family: sans-serif;
-    /*resize: none;*/ /*Conatct form*/
+.input{
+    margin-left: 1rem;
+
 }
 
-.btn-purple{
-    background-color:var(--purple-solid);
+.btn-color{
+    background-color:#B0A06C;
    } 
-.btn-purple:hover{
-    background-color: var(--purple-light);
+.btn-color:hover{
+    background-color:#876A20;
 }
 ::placeholder{
     color: inherit;
@@ -230,7 +231,7 @@ display: none;
     padding:5rem 0;
     text-align:left;
     background:#f4f4df;
-    margin-bottom:5rem;
+    margin-bottom:1px;
 }
 
     #hotel-introduction .hotel-introduction-inner{
@@ -238,7 +239,8 @@ display: none;
         display:flex;
         flex-direction:column;
         justify-content:center;
-        height:54.75rem;}
+        height:67rem;
+    }
     #hotel-introduction .hotel-introduction-inner .hotel-logo
     {
         margin-bottom:1rem;
@@ -259,15 +261,11 @@ display: none;
     #hotel-introduction .hotel-introduction-inner h2
     {
     font-family: 'Raleway', sans-serif;
-    font-size:1.5625rem;
+    font-size:3rem;
     margin-bottom:3rem;
     }
     
     #hotel-introduction .hotel-introduction-inner .description
-    {
-        margin-bottom:2rem;
-    }
-    #hotel-introduction .hotel-introduction-inner .description ,p
     {
         margin-bottom:2rem;
     }
@@ -357,118 +355,195 @@ display: none;
     }
 
 
+/*Hotel Facilities*/
+    #hotel-facilities
+    { 
+        margin-top:10rem;
+        margin-bottom:5rem;
+    }
+    #hotel-facilities .hotel-facilities-images .img-holder{
+        height:50rem;
+        overflow:hidden;
+    }
+    #hotel-facilities .hotel-facilities-images .img-holder img{width:100%; }
+    
+    #hotel-facilities .hotel-facilities-details{
+        height:50.5625rem;
+        background:#f4f4df;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        padding:2rem 10%;
+    }
+    #hotel-facilities .hotel-facilities-details h2{
+        margin:0 0 2rem 0;
+        font-family: 'Old Standard TT', serif;
+        font-size:2rem;
+        text-transform:uppercase;
+    }
+    #hotel-facilities .hotel-facilities-details .description{
+        margin-bottom:2rem;
+    }
 
-
-
-/*Featured offers styling*/
-.section-head{
+    #hotel-facilities .hotel-facilities-details .btn-holder{ margin-top: 1rem ;}
+    
+    @media (max-width: 992px) {
+        #hotel-facilities .hotel-facilities-details{text-align:center;}
+        
+    }
+    
+    @media (max-width: 768px) {
+        #hotel-facilities .hotel-facilities-images .img-holder{margin-bottom:8px;height:35rem;}
+    }
+    
+/*Rooms Offers section styling*/
+section-head{
     text-align: center;
     margin-bottom: 5rem;
 }
-.heading{
+.heading-rooms{
     display: block;
-    font-size: 4rem;
+    font-size: 3rem;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
 }
+
 .sub-heading{
-    font-size: 1.7rem;
-    font-family: 'Courgette',cursive;
-    font-weight: 300;
-    color: #a5a5a5a5;
+    color: ;
+     display: block;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
 }
 .grid{
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 5fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 .grid-item{
 display: flex;
-flex-direction: column;
+flex-direction:column;
 justify-content: center;
 align-items: center;
-webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
 
 }
 .grid-item:hover{
      opacity:0.7;
 }
-/*Discounts Section styling*/
-.feautured-offers{
-    height: 35rem;
-    color: #fff;
-    padding: 1rem;
-    position: relative;
-    z-index: 0;
+.rating{
+    color: orange;
 }
-.feautured-offers::before{
+.paragraph{
+    color: #b0a06c;
+    margin-bottom: 2.5rem;
+}
+.roooms{
+    background-color: #f2f6f9;
+}
+
+/*.image-wrap{
+    position: relative;
+    height: 30rem;
+}
+.image-wrap::after{
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-    width:100%;
-    background-color: var(--purple-transparent-alt);
-    z-index: -1;
-}
-.hotel-image{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -2;
+    height:100%;
+}*/
+.main{
+    margin-bottom: 3rem;
 }
-.btn1{
-    max-width: 20rem;
+
+
+
+.room-image{
+ width: 100%;
+ height:100%;   
+ object-fit:cover;
 }
-.rating{
-    color: orange;
-}
-.offer{
-    background: linear-gradient(to right,rgba(250,150,44,.8),rgba(143,88,251,.8)),
-    url(dine.jpg) bottom center no-repeat;
-}
-.offer-content{
-    background-color: #fff;
-    text-align: center;
-    padding: 5rem 1rem;
-    position: relative;
-    overflow: hidden;
-}
-.discount{
-    background-color: var(--yellow-solid);
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 2rem;
-    text-transform:uppercase;
-    outline: 3px solid var(--yellow-solid);
-    outline-offset: .5rem;
-}
-.paragraph{
-    color: #a5a5a5a5;
-    margin-bottom: 2.5rem;
+.room-name{
+    color:#12171E;
+    font-size: 22px;
     font-weight: bold;
-}
-.hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
+    font-family: 'Gotham';
 
-.hvr-grow:hover,
-.hvr-grow:focus,
-.hvr-grow:active {
-    transform: scale(1.1);
+}
+.room-price{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Courgette';
+}
+.per-night{
+    font-size: 1.7rem;
 }
 
+/*Footer Styling*/
+.footer{
+    height: 30rem;
+    padding :2rem 0;
+    background-color: #383e56;
+}
+.footer-content-brand
+{
+    margin-bottom:2rem; 
+}
 
+.footer .paragraph{
+color: #fff;
+text-align: center;
+}
+
+.footer-heading{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+    color: #fff;
+}
+.socail-media{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.sm-link{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 1rem;
+    transition: background color .5s;
+
+}
+.sm-link{
+    color:var(--dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sm-link i
+{
+    margin:auto;
+     display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-center
+{
+    color: #fff;
+    text-align: center;
+}
+.logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
