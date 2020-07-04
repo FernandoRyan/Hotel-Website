@@ -7,13 +7,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
+.headeer {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: transparent;
   padding: 20px 10px;
 }
 
-.header a {
+.headeer a {
   float: left;
   color: black;
   text-align: center;
@@ -24,33 +24,33 @@ body {
   border-radius: 4px;
 }
 
-.header a.logo {
+.headeer a.logo {
   font-size: 25px;
   font-weight: bold;
 }
 
-.header a:hover {
+.headeer a:hover {
   background-color: #bec4c0;
   color: black;
 }
 
-.header a.active {
+.headeer a.active {
   background-color: dodgerblue;
   color: white;
 }
 
-.header-right {
+.headeer-right {
   float: right;
 }
 
 @media screen and (max-width: 500px) {
-  .header a {
+  .headeer a {
     float: none;
     display: block;
     text-align: left;
   }
   
-  .header-right {
+  .headeer-right {
     float: none;
   }
 }
