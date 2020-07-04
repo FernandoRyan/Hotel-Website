@@ -3,7 +3,7 @@
 :root {
     --dark-color: #2d2c2c;
     --purple-solid: #303030;
-    --purple-transparent: rgba(50, 60, 60, .7);
+    --purple-transparent: rgba(50, 10, 70, .7);
     --purple-transparent-alt: rgba(50, 10, 75, .5);
     --purple-light: #8f50fb;
 }
