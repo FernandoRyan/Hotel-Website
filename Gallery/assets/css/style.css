@@ -16,7 +16,7 @@
     --purple-transparent-alt: rgba(53, 10, 79, .5);
     --purple-light: #8f50fb;
     --yellow-solid: #fa9e2c;
-    --transparent-black:rgba(0, 0, 0, 0.5);
+    --transparent-black:rgba(0, 0, 0, .5);
     --gradient-color: linear-gradient(to right, var(--yellow-solid), var(--purple-light));
     --gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
 }
@@ -90,7 +90,7 @@ section{
 .dots{
     font-size: 2.5rem;
     margin-left: .5rem;
-    opacity: .75;
+    opacity: .80;
 }
 /*Header styling*/
 .header{
@@ -120,7 +120,7 @@ height: 60px;
 }
 .hamburger-menu{
     font-size: 2.7rem;
-    color: #fff;
+    color: #e3e3e3;
     cursor: pointer;
     position: relative;
     z-index: 1500;
@@ -142,7 +142,7 @@ display: none;
     left: 0;
     width: 100%;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, .9);
     display: flex;
     flex-direction:column;
     align-items: center;
@@ -153,7 +153,7 @@ display: none;
     transition: opacity .5s; 
 }
 .menu-open .nav-list{  
-    opacity: 1;
+    opacity: 97;
     transform: scale(1);
 }
 .nav-item:not(last-child){
@@ -162,7 +162,7 @@ display: none;
 }
 .nav-link{
     display: block;
-    color: #fff;
+    color: #e3e3e3;
     font-weight: bold;
     font-size: 2rem;
     text-transform: uppercase;
