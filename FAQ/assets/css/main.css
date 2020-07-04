@@ -9,6 +9,7 @@
     --purple-transparent: rgba(50, 10, 70, .7);
     --purple-transparent-alt: rgba(50, 10, 75, .5);
     --purple-light: #8f50fb;
+    --transparent-black:rgba(0, 0, 0, .5);
 }
 .header {
   overflow: hidden;
@@ -1972,7 +1973,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color:var( --grayscale-transparent);
+    background-color:var( --transparent-black);
     z-index: 999;
     transition: background-color .5s ,height .5s;
 }
