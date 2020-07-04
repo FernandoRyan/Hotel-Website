@@ -1980,8 +1980,8 @@ display: none;
 .nav-link{
     display: block;
     color: #fff;
-    font-weight: bold;
-    font-size: 2rem;
+
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 1rem;
