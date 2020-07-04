@@ -1973,7 +1973,7 @@ display: none;
     transition: opacity .5s; 
 }
 .menu-open .nav-list{  
-    opacity: 1;
+    opacity: .80;
     transform: scale(1);
 }
 .nav-item:not(last-child){

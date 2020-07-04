@@ -1998,7 +1998,7 @@ display: none;
 .dots{
     font-size: 2.5rem;
     margin-left: .5rem;
-    opacity: .75;
+    opacity: .50;
 }
 .hvr-grow {
     display: inline-block;
