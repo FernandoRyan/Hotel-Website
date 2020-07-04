@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.headeer {
+  overflow: hidden;
+  background-color: transparent;
+  padding: 20px 10px;
+}
+
+.headeer a {
+  float: left;
+  color: #e3e3e3;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.headeer a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.headeer a:hover {
+  background-color: #bec4c0;
+  color: black;
+}
+
+.headeer a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.headeer-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .headeer a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .headeer-right {
+    float: none;
+  }
+}
