@@ -1765,6 +1765,11 @@
 			position: relative;
 			width: 40%;
 		}
+		#banner h3 {
+			font-size: 2.4em;
+			font-family: Courier New;
+			margin: 0 auto 0em;
+		}
 
 		#banner p {
 			font-size: 1.5em;
