@@ -15,15 +15,9 @@
 }
 /*Custom properties*/
 :root {
-    --dark-color: #2d2c2c;
-    --purple-solid: #350a4f;
-    --purple-transparent: rgba(53, 10, 79, .7);
-    --purple-transparent-alt: rgba(53, 10, 79, .5);
-    --purple-light: #8f50fb;
-    --yellow-solid: #fa9e2c;
-    --transparent-black:rgba(0, 0, 0, 0.5);
-    --gradient-color: linear-gradient(to right, var(--yellow-solid), var(--purple-light));
-    --gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
+     --darkblue:rgba(32, 64, 81);;
+    --transparent-darkblue:rgba(32, 64, 81,0.9);
+    --dark-color:#393e46;
 }
 /*Global Styles*/
 html{
@@ -115,12 +109,12 @@ section{
     position: fixed;
     top: 0;
     left: 0;
-    background:var(--transparent-black);
+    background:var(--darkblue);
     z-index: 999;
     transition: all 0.75s;
 }
 .header.active{
-    background-color: var(--purple-solid);
+    background-color:var(--transparent-darkblue);
 }
 /* Navigation styles-nav*/
 .nav{
@@ -492,7 +486,7 @@ transition: opacity 1s ease-in-out;
 .footer{
     height: 30rem;
     padding :2rem 0;
-    background-color: #383e56;
+    background-color: var(--transparent-darkblue);
 }
 .footer-content-brand
 {
@@ -547,3 +541,32 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+@media screen and (min-width:780px){
+    .header{
+        height:6rem;
+    }
+    .header .active{
+        height: 6rem;
+    }
+    /*Hero section styling*/
+    .title{
+        font-size: 8rem;   
+    }
+    /*#hotel-facilities .hotel-facilities-images .img-holder{margin-bottom:8px;height:100rem;}*/
+    /*Footer section*/
+    .footer{
+        overflow-x: hidden;
+    }
+   
+    .footer-content-brand{
+        margin-bottom: 0;
+        flex:0 0 50%;
+    }
+    .footer .paragraph {
+        margin-top: 2.5rem;
+    }
+    .footer-heading{
+
+        margin-bottom: 5rem;
+    }
+    }
