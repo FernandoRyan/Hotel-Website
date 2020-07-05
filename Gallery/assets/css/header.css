@@ -30,8 +30,8 @@ body {
 }
 
 .headeer a:hover {
-  background-color: #bec4c0;
-  color: black;
+
+  color: #cca42f;
 }
 
 .headeer a.active {
