@@ -15,7 +15,7 @@
 }
 /*Custom properties*/
 :root {
-     --darkblue:rgba(32, 64, 81);;
+     --darkblue:rgba(32, 64, 81);
     --transparent-darkblue:rgba(32, 64, 81,0.9);
     --dark-color:#393e46;
 }
@@ -31,7 +31,7 @@ body{
 .dot {
   height: 9px;
   width: 9px;
-  background-color:var(--dark-color);
+  background-color:var(--darkblue);
   border-radius: 50%;
   display: inline-block;
 }
@@ -195,6 +195,9 @@ display: none;
     font-family: 'Gotham' ,cursive;
 }
 /*Booking section styles*/
+.color{
+    background-color: var(--transparent-darkblue);
+}
 td{
     margin-left: 2px;
     margin-right: 3px;
@@ -205,6 +208,7 @@ td{
 }
 .input{
     margin-left: 1rem;
+    color: #fff
 
 }
 
@@ -569,4 +573,37 @@ align-items: center;
 
         margin-bottom: 5rem;
     }
-    }
+    }/*Making Website responsive*/
+
+@media screen and (min-width:1080px){
+ section{
+        padding: 10rem 0;
+ }
+ /*header style*/
+.hamburger-menu{
+    display: none;
+}
+.nav-list{
+    position: initial;
+    width: initial;
+    height: initial;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: initial;
+    opacity: 1;
+    transform:scale(1);
+}
+.nav-item:not(last-child)
+{
+    margin-bottom: 0;
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-size: normal;
+}
+.heading{
+    font-size: 12rem;
+}
+.subtitle{
+    font-size: 5rem
+}
