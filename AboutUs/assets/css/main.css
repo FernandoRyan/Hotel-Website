@@ -36,7 +36,7 @@
 }
 
 .headeer a:hover {
-  background-color: #bec4c0;
+  color:#cca42f;
 }
 
 .headeer a.active {
@@ -1701,7 +1701,7 @@
 		}
 
 		#banner strong, #banner b {
-			color: #ffffff;
+			color: #cca42f;
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
