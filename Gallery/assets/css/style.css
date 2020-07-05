@@ -169,6 +169,10 @@ display: none;
     letter-spacing: 2px;
     padding: 1rem;
 }
+.nav-link :hover {
+ 
+  color: #cca42f;
+}
 /*Hero Section */
 .heading{
     color: #cca42f;
