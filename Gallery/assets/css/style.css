@@ -106,7 +106,7 @@ section{
     transition: all 0.75s;
 }
 .header.active{
-    background-color: var(--purple-solid);
+    background-color: #f1f1f1;
 }
 /* Navigation styles-nav*/
 .nav{
