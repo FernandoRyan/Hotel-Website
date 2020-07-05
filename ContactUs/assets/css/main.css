@@ -1987,11 +1987,15 @@
     justify-content: space-between;
 }
 .hamburger-menu{
-    font-size: 2.7rem;
+    font-size: 2rem;
     color: #fff;
     cursor: pointer;
     position: relative;
     z-index: 1500;
+}
+.hamburger-menu :hover {
+ 
+  color: #cca42f;
 }
 .hamburger-menu .fa-times{
     display: none;
