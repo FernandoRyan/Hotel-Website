@@ -119,11 +119,17 @@ max-width: 80%;
 height: 60px;
 }
 .hamburger-menu{
-    font-size: 2.7rem;
-    color: #e3e3e3;
+    font-size: 1.7rem;
+    color: #fff;
     cursor: pointer;
     position: relative;
     z-index: 1500;
+
+
+}
+.hamburger-menu:hover {
+ 
+  color: #cca42f;
 }
 .hamburger-menu .fa-times{
     display: none;
