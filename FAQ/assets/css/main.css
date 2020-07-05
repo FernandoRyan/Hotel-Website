@@ -1697,7 +1697,7 @@
 
 	#banner {
 		background-color: #8f50fb;
-		color: #cca42f;
+		color: #ffffff;
 		padding: 8em 0 6em 0;
 		text-align: center;
 	}
@@ -1711,7 +1711,7 @@
 		}
 
 		#banner strong, #banner b {
-			color: #ffffff;
+			color: #cca42f;
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
