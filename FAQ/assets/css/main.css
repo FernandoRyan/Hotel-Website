@@ -1995,6 +1995,10 @@
 
 
 }
+.hamburger-menu:hover {
+ 
+  color: #cca42f;
+}
 
 .hamburger-menu .fa-times{
     display: none;
