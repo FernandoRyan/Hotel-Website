@@ -3,7 +3,6 @@
 }
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Raleway:300,700");
-
 :root {
     --dark-color: #2d2c2c;
     --purple-solid: #303030;
@@ -12,13 +11,13 @@
     --purple-light: #8f50fb;
     --transparent-black:rgba(0, 0, 0, .5);
 }
-.headeer {
+.header {
   overflow: hidden;
-  background-color: transparent;
+  background-color: #f1f1f1;
   padding: 20px 10px;
 }
 
-.headeer a {
+.header a {
   float: left;
   color: #e3e3e3;
   text-align: center;
@@ -29,21 +28,22 @@
   border-radius: 4px;
 }
 
-.headeer a.logo {
+.header a.logo {
   font-size: 25px;
   font-weight: bold;
 }
 
-.headeer a:hover {
-  background-color: #bec4c0;
+.header a:hover {
+ 
+  color: #cca42f;
 }
 
-.headeer a.active {
+.header a.active {
   background-color: dodgerblue;
   color: white;
 }
 
-.headeer-right {
+.header-right {
   float: right;
 }
 
@@ -58,6 +58,7 @@
     float: none;
   }
 }
+
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -105,7 +106,6 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-
 
 /* Containers */
 
@@ -351,7 +351,6 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
-		color: #8f50fb
 	}
 
 		
@@ -1697,7 +1696,7 @@
 /* Banner */
 
 	#banner {
-		background-color: #8f50fb;
+		background-color: #d9c58d;
 		color: #ffffff;
 		padding: 8em 0 6em 0;
 		text-align: center;
@@ -1712,7 +1711,7 @@
 		}
 
 		#banner strong, #banner b {
-			color: #ffffff;
+			color: #cca42f;
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
@@ -1851,13 +1850,13 @@
 
 	#footer {
 		background-color: #f7f7f7;
-		color: #4a4a4a;
+		color: #444;
 		padding: 5em 0 4em 0;
 		position: relative;
 	}
 
 		#footer input, #footer select, #footer textarea {
-			color: #4a4a4a;
+			color: #555;
 		}
 
 		#footer a {
@@ -1865,7 +1864,7 @@
 		}
 
 		#footer strong, #footer b {
-			color: #4a4a4a;
+			color: #555;
 		}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
@@ -1882,11 +1881,11 @@
 		}
 
 		#footer hr {
-			border-bottom-color: #4a4a4a;
+			border-bottom-color: #ddd;
 		}
 
 		#footer:before {
-			background-color:#4a4a4a;
+			background-color: #ddd;
 			content: '';
 			height: 1px;
 			left: 30%;
@@ -1905,7 +1904,7 @@
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px #141414;
+				border-left: solid 1px #e3e3e3;
 				display: inline-block;
 				list-style: none;
 				margin-left: 1.5em;
@@ -2047,7 +2046,7 @@ display: none;
 .dots{
     font-size: 2.5rem;
     margin-left: .5rem;
-    opacity: .50;
+    opacity: .80;
 }
 .hvr-grow {
     display: inline-block;
@@ -2064,4 +2063,4 @@ display: none;
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.1);
-}		
+}				
