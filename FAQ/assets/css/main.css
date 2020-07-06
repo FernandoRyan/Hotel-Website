@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box;
 }
+@font-face {
+    font-family: Gotham-Font;
+    src:local("C:\Users\ryana\OneDrive\Desktop\Cloned Repository\Hotel-Website\Gotham-Font");
+}
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans+Condensed:wght@300&display=swap');
 @import url(font-awesome.min.css);
 @import url("http://fonts.googleapis.com/css?family=Raleway:300,700");
 :root {
@@ -1996,6 +2002,7 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .hamburger-menu{
     font-size: 1.7rem;
     color: #fff;
@@ -2081,3 +2088,35 @@ display: none;
 .hvr-grow:active {
     transform: scale(1.1);
 }				
+/*media*/
+@media screen and (min-width:1080px){
+ section{
+        padding: 10rem 0;
+    }
+.hamburger-menu{
+    display: none;
+}
+.nav-list{
+    position: initial;
+    width: initial;
+    height: initial;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: initial;
+    opacity: 1;
+    transform:scale(1);
+}
+.nav-item:not(last-child)
+{
+    margin-bottom: 0;
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-size: normal;
+}
+.heading{
+    font-size: 12rem;
+}
+.subtitle{
+    font-size: 5rem
+}
