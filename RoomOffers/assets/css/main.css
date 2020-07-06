@@ -2225,7 +2225,7 @@ height: 60px;
         background:#fff;
         color:#000;
         border-radius:0;
-        border:solid 1px #b7b7b7;
+        border:solid 2px #b7b7b7;
         overflow:hidden;
         font-size:1.4375rem;
         font-weight:400;
@@ -2287,7 +2287,7 @@ transition: opacity 1s ease-in-out;
 }
 .paragraph{
     color: #b0a06c;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 .roooms{
     background-color: #f2f6f9;
