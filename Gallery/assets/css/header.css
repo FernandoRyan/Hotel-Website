@@ -15,7 +15,7 @@ body {
 
 .headeer a {
   float: left;
-  color: #e3e3e3;
+  color: #cca42f;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -25,7 +25,8 @@ body {
 }
 
 .headeer a.logo {
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: bold;
   
 }
 
