@@ -1991,7 +1991,7 @@
     left: 0;
     background-color:var( --transparent-black);
     z-index: 999;
-    transition: background-color .5s ,height .5s;
+    transition: all 0.75s;
 }
 .header.active{
     background-color: var(--purple-solid);
