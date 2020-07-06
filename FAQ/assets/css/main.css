@@ -2004,7 +2004,7 @@
 }
 
 .hamburger-menu{
-    font-size: 1.7rem;
+    font-size: 1rem;
     color: #fff;
     cursor: pointer;
     position: relative;
@@ -2055,10 +2055,9 @@ display: none;
 .nav-link{
     display: block;
     color: #fff;
-
-    font-size: 1.8rem;
+    font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 1rem;
 }
 .container{
@@ -2091,7 +2090,7 @@ display: none;
 /*media*/
 @media screen and (min-width:1080px){
  section{
-        padding: 10rem 0;
+        padding: 20rem 10rem;
     }
 .hamburger-menu{
     display: none;
@@ -2111,7 +2110,7 @@ display: none;
     margin-bottom: 0;
 }
 .nav-link{
-    font-size: 1.3rem;
+    font-size: 1px;
     font-size: normal;
 }
 .heading{
@@ -2120,3 +2119,94 @@ display: none;
 .subtitle{
     font-size: 5rem
 }
+.paragraph{
+    color: #b0a06c;
+    margin-bottom: 2.5rem;
+  }
+  /*Footer Styling*/
+.footer{
+    height: 30rem;
+    padding :2rem 0;
+    background-color: var(--transparent-darkblue);
+}
+.footer-content-brand
+{
+    margin-bottom:2rem; 
+}
+
+.footer .paragraph{
+color: #fff;
+text-align: center;
+}
+
+.footer-heading{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+    color: #fff;
+}
+.socail-media{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.sm-link{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 1rem;
+    transition: background color .5s;
+
+}
+.sm-link{
+    color:var(--transparent-darkblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sm-link i
+{
+    margin:auto;
+     display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-center
+{
+    color: #fff;
+    text-align: center;
+}
+.logo{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+@media screen and (min-width:780px){
+    .header{
+        height:6rem;
+    }
+    .header .active{
+        height: 6rem;
+    }
+    /*Hero section styling*/
+    .title{
+        font-size: 8rem;   
+    }
+    /*#hotel-facilities .hotel-facilities-images .img-holder{margin-bottom:8px;height:100rem;}*/
+    /*Footer section*/
+    /*.footer{
+        overflow-x: hidden;
+    }*/
+   
+    .footer-content-brand{
+        margin-bottom: 0;
+        flex:0 0 50%;
+    }
+    .footer .paragraph {
+        margin-top: 2.5rem;
+    }
+    .footer-heading{
+
+        margin-bottom: 0rem;
+    }
