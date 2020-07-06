@@ -1717,7 +1717,7 @@
 		}
 
 		#banner strong, #banner b {
-			color: #cca42f;
+			color: #b56a02;
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
@@ -2185,6 +2185,7 @@ text-align: center;
 display: flex;
 justify-content: center;
 align-items: center;
+
 }
 @media screen and (min-width:780px){
     .header{
@@ -2214,3 +2215,9 @@ align-items: center;
 
         margin-bottom: 0rem;
     }
+    }/*Making Website responsive*/
+
+@media screen and (min-width:1080px){
+ section{
+        padding: 10rem 0;
+ }
