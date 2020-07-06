@@ -2306,7 +2306,7 @@ transition: opacity 1s ease-in-out;
     height:100%;
 }*/
 .main{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -2317,7 +2317,7 @@ transition: opacity 1s ease-in-out;
  object-fit:cover;
 }
 .room-name{
-    color:#12171E;
+    color:#fff;
     font-size: 22px;
     font-weight: bold;
     font-family: 'Gotham';
@@ -2333,10 +2333,9 @@ transition: opacity 1s ease-in-out;
     font-size: 1.7rem;
 }
 /*Global Styles*/
-html{
+.lux{
     font-size: 10px;
-}
-body{
+
     font-family: "Open Sans", sans serif;
     font-size: 1.7rem;
     color: var(--dark-color);
