@@ -2270,7 +2270,7 @@ height: 60px;
 }
 .grid{
     display: grid;
-    grid-gap: 5px;
+    grid-gap: 40px;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 .grid-item{
@@ -2344,6 +2344,26 @@ transition: opacity 1s ease-in-out;
     font-family: "Open Sans", sans serif;
     font-size: 1.7rem;
     color: var(--dark-color);
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: transparent;
 }
 
     a{
