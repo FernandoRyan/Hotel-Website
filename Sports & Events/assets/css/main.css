@@ -2183,7 +2183,7 @@ align-items: center;
 }
 @media screen and (min-width:780px){
     .header{
-        height:6rem;
+        height:3rem;
     }
     .header .active{
         height: 6rem;
