@@ -2215,6 +2215,22 @@ align-items: center;
 
         margin-bottom: 0rem;
     }
+    a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+section{
+    padding: 5rem;
+}
+    /*Making Website responsive*/
+
+@media screen and (min-width:1080px){
+ section{
+        padding: 10rem 0;
+ }
     }/*Making Website responsive*/
 
 @media screen and (min-width:1080px){
