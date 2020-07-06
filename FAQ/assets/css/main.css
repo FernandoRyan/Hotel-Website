@@ -2004,7 +2004,7 @@
 }
 
 .hamburger-menu{
-    font-size: 1.7rem;
+    font-size: 1rem;
     color: #fff;
     cursor: pointer;
     position: relative;
@@ -2055,10 +2055,9 @@ display: none;
 .nav-link{
     display: block;
     color: #fff;
-
-    font-size: 1.8rem;
+    font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 1rem;
 }
 .container{
@@ -2091,7 +2090,7 @@ display: none;
 /*media*/
 @media screen and (min-width:1080px){
  section{
-        padding: 10rem 0;
+        padding: 20rem 10rem;
     }
 .hamburger-menu{
     display: none;
@@ -2111,7 +2110,7 @@ display: none;
     margin-bottom: 0;
 }
 .nav-link{
-    font-size: 1.3rem;
+    font-size: 1px;
     font-size: normal;
 }
 .heading{
