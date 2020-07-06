@@ -2230,6 +2230,16 @@ align-items: center;
 .sm-link:focus,
 .sm-link:active {
     transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+section{
+    padding: 5rem;
 }			
     /*Making Website responsive*/
 
