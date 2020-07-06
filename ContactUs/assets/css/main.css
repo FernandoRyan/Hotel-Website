@@ -2076,7 +2076,7 @@ display: none;
 .footer{
     height: 30rem;
     padding :2rem 0;
-    background-color: var(--transparent-darkblue);
+    background-color: var(--transparent-black);
 }
 .footer-content-brand
 {
@@ -2143,7 +2143,7 @@ size: 10px;
     .title{
         font-size: 8rem;   
     }
-    /*#hotel-facilities .hotel-facilities-images .img-holder{margin-bottom:8px;height:100rem;}*/
+    
     /*Footer section*/
     .footer{
         overflow-x: hidden;
