@@ -2185,8 +2185,7 @@ text-align: center;
 display: flex;
 justify-content: center;
 align-items: center;
-width: 10%;
-height: 10%;
+
 }
 @media screen and (min-width:780px){
     .header{
@@ -2216,3 +2215,9 @@ height: 10%;
 
         margin-bottom: 0rem;
     }
+    }/*Making Website responsive*/
+
+@media screen and (min-width:1080px){
+ section{
+        padding: 10rem 0;
+ }
