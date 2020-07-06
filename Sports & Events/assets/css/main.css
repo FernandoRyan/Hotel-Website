@@ -2215,7 +2215,23 @@ align-items: center;
 
         margin-bottom: 0rem;
     }
-    }/*Making Website responsive*/
+    .sm-link {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.sm-link:hover,
+.sm-link:focus,
+.sm-link:active {
+    transform: scale(1.1);
+}			
+    /*Making Website responsive*/
 
 @media screen and (min-width:1080px){
  section{
