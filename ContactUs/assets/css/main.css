@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+@font-face {
+    font-family: Gotham-Font;
+    src:local("C:\Users\ryana\OneDrive\Desktop\Cloned Repository\Hotel-Website\Gotham-Font");
+}
 @import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Open+Sans+Condensed:wght@300&display=swap');
 @import url(font-awesome.min.css);
@@ -1768,9 +1772,14 @@
 			width: 40%;
 		}
 		#banner h3 {
+			
+		
 			font-size: 2.4em;
-			font-family: Courier New;
-			margin: 0 auto 0em;
+			line-height: 1.35em;
+			margin: 0 auto 1em;
+			padding: 1.1em;
+			position: relative;
+			width: 40%;
 		}
 
 		#banner p {
@@ -1993,17 +2002,21 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .hamburger-menu{
-    font-size: 2rem;
+    font-size: 1rem;
     color: #fff;
     cursor: pointer;
     position: relative;
     z-index: 1500;
+
+
 }
-.hamburger-menu :hover {
+.hamburger-menu:hover {
  
   color: #cca42f;
 }
+
 .hamburger-menu .fa-times{
     display: none;
 }
@@ -2042,14 +2055,12 @@ display: none;
 .nav-link{
     display: block;
     color: #fff;
-
-    font-size: 1.8rem;
+    font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 1rem;
 }
 .container{
-	height: auto!important;
     width: 100%;
     max-width: 120rem;
     padding: 0 1.5rem;
@@ -2075,11 +2086,48 @@ display: none;
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.1);
+}				
+/*media*/
+@media screen and (min-width:1080px){
+ section{
+        padding: 20rem 10rem;
+    }
+.hamburger-menu{
+    display: none;
 }
+.nav-list{
+    position: initial;
+    width: initial;
+    height: initial;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: initial;
+    opacity: 1;
+    transform:scale(1);
+}
+.nav-item:not(last-child)
+{
+    margin-bottom: 0;
+}
+.nav-link{
+    font-size: 1px;
+    font-size: normal;
+}
+.heading{
+    font-size: 12rem;
+}
+.subtitle{
+    font-size: 5rem
+}
+.paragraph{
+    color: #b0a06c;
+    margin-bottom: 2.5rem;
+  }
+  /*Footer Styling*/
 .footer{
-    height: 20rem;
+    height: 30rem;
     padding :2rem 0;
-
+    background-color: var(--transparent-darkblue);
 }
 .footer-content-brand
 {
@@ -2112,7 +2160,7 @@ text-align: center;
 
 }
 .sm-link{
-    color:var(--transparent-black);
+    color:var(--transparent-darkblue);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2120,7 +2168,7 @@ text-align: center;
 .sm-link i
 {
     margin:auto;
-    display: flex;
+     display: flex;
     justify-content: center;
     text-align: center;
 }
@@ -2133,7 +2181,6 @@ text-align: center;
 display: flex;
 justify-content: center;
 align-items: center;
-
 }
 @media screen and (min-width:780px){
     .header{
@@ -2146,11 +2193,11 @@ align-items: center;
     .title{
         font-size: 8rem;   
     }
-    
+    /*#hotel-facilities .hotel-facilities-images .img-holder{margin-bottom:8px;height:100rem;}*/
     /*Footer section*/
-    .footer{
+    /*.footer{
         overflow-x: hidden;
-    }
+    }*/
    
     .footer-content-brand{
         margin-bottom: 0;
@@ -2161,11 +2208,5 @@ align-items: center;
     }
     .footer-heading{
 
-        margin-bottom: 5rem;
+        margin-bottom: 0rem;
     }
-    }/*Making Website responsive*/
-
-@media screen and (min-width:1080px){
- section{
-        padding: 10rem 0;
- }				
