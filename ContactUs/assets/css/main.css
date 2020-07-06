@@ -1991,7 +1991,7 @@
     left: 0;
     background-color:var( --transparent-black);
     z-index: 999;
-    transition: all 0.75s;
+    transition: all 0.65s;
 }
 .header.active{
     background-color: var(--purple-solid);
