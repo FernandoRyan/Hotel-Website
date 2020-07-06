@@ -196,7 +196,7 @@ display: none;
 }
 /*Booking section styles*/
 .color{
-    background-color: var(--transparent-darkblue);
+    background-color: #000000;
 }
 td{
     margin-left: 2px;

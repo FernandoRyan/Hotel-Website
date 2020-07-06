@@ -2234,6 +2234,7 @@ height: 60px;
 .sm-link:focus,
 .sm-link:active {
     transform: scale(1.1);
+    color: #cca42f;
 }			
     a{
     text-decoration: none;
