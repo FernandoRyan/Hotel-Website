@@ -313,10 +313,11 @@ td{
         left:5rem;
         bottom:3rem;}
     #hotel-accommodation .hotel-accommodation-inner .details h2
-    {   font-size:2rem;
+    {   font-size:3rem;
         color:#fff;
+        font-weight: bold;
         text-transform:uppercase;
-        font-family: 'Old Standard TT', serif;
+        font-family: 'Gotham';
         margin:0 0 2rem 0;
     }
     #hotel-accommodation .hotel-accommodation-inner .details h2 span
