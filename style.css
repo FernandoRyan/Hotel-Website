@@ -559,9 +559,9 @@ align-items: center;
     }
     /*#hotel-facilities .hotel-facilities-images .img-holder{margin-bottom:8px;height:100rem;}*/
     /*Footer section*/
-    .footer{
+    /*.footer{
         overflow-x: hidden;
-    }
+    }*/
    
     .footer-content-brand{
         margin-bottom: 0;
@@ -572,7 +572,7 @@ align-items: center;
     }
     .footer-heading{
 
-        margin-bottom: 5rem;
+        margin-bottom: 0rem;
     }
     }/*Making Website responsive*/
 
