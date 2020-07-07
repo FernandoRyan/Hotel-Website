@@ -13,12 +13,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*Custom properties*/
 :root {
      --darkblue:rgba(32, 64, 81);
     --transparent-darkblue:rgba(32, 64, 81,0.9);
     --dark-color:#393e46;
 }
+
 /*Global Styles*/
 html{
     font-size: 10px;
