@@ -1717,7 +1717,7 @@
 		}
 
 		#banner strong, #banner b {
-			color: #cca42f;
+			color: #ebcc46;
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
@@ -1991,7 +1991,7 @@
     left: 0;
     background-color:var( --transparent-black);
     z-index: 999;
-    transition: background-color .5s ,height .5s;
+    transition: all 0.65s;
 }
 .header.active{
     background-color: var(--purple-solid);
@@ -2185,6 +2185,11 @@ text-align: center;
 display: flex;
 justify-content: center;
 align-items: center;
+
+}
+.logo img {
+max-width: 80%;
+height: 60px;
 }
 @media screen and (min-width:780px){
     .header{
@@ -2213,11 +2218,8 @@ align-items: center;
     .footer-heading{
 
         margin-bottom: 2rem;
-    } a{
-    text-decoration: none;
-    color: inherit;
-}
-.sm-link {
+    }
+    .sm-link {
     display: inline-block;
     vertical-align: middle;
     transform: translateZ(0);
@@ -2233,6 +2235,10 @@ align-items: center;
 .sm-link:active {
     transform: scale(1.1);
     color: #cca42f;
+}			
+    a{
+    text-decoration: none;
+    color: inherit;
 }
 ul{
     list-style: none;
