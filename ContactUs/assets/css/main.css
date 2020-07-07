@@ -1993,6 +1993,9 @@
     z-index: 999;
     transition: all 0.65s;
 }
+#header .clicked{
+	background-color: #cca42f;
+}
 .header.active{
     background-color: var(--purple-solid);
 }
@@ -2095,6 +2098,7 @@ display: none;
 .hamburger-menu{
     display: none;
 }
+
 .nav-list{
     position: relative;
     width: initial;
@@ -2219,6 +2223,7 @@ height: 60px;
 
         margin-bottom: 2rem;
     }
+
     .sm-link {
     display: inline-block;
     vertical-align: middle;
@@ -2228,6 +2233,7 @@ height: 60px;
     -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
     transition-property: transform;
+    transition-proper
 }
 
 .sm-link:hover,
