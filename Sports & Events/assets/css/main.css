@@ -20,22 +20,22 @@
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
-  padding: 15px 10px;
+  padding: 20px 10px;
 }
 
 .header a {
-  
+  float: left;
   color: #e3e3e3;
   text-align: center;
-  padding: 25px;
+  padding: 12px;
   text-decoration: none;
-  font-size: 15px; 
+  font-size: 18px; 
   line-height: 25px;
   border-radius: 4px;
 }
 
 .header a.logo {
-  font-size: 15px;
+  font-size: 25px;
   font-weight: bold;
 }
 
@@ -123,7 +123,7 @@
 	.container.\31 25\25 {
 		width: 100%;
 		max-width: 100em;
-		min-width: 100em;
+		min-width: 80em;
 	}
 
 	
@@ -1702,22 +1702,21 @@
 /* Banner */
 
 	#banner {
-		background-color: #d9c58d;
 		color: #ffffff;
-		padding: 4em 0 6em 0;
+		padding: 8em 0 6em 0;
 		text-align: center;
-	}
-
+}
 		#banner input, #banner select, #banner textarea {
 			color: #ffffff;
 		}
+
 
 		#banner a {
 			color: #00cdcf;
 		}
 
 		#banner strong, #banner b {
-			color: #ebcc46;
+			color: #cca42f;
 		}
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
@@ -1826,7 +1825,7 @@
 			}
 
 				#banner h2 {
-					font-size: 1em;
+					font-size: 2em;
 				}
 
 				#banner p {
@@ -1842,7 +1841,7 @@
 			}
 
 				#banner h2 {
-					font-size: 1em;
+					font-size: 1.65em;
 					width: 100%;
 				}
 
@@ -1983,7 +1982,7 @@
 		}
 .header{
     width: 100%;
-    height: 2rem;
+    height: 3rem;
     display: flex;
     align-items: center;
     position: fixed;
@@ -1991,7 +1990,7 @@
     left: 0;
     background-color:var( --transparent-black);
     z-index: 999;
-    transition: all 0.65s;
+    transition: background-color .5s ,height .5s;
 }
 .header.active{
     background-color: var(--purple-solid);
@@ -2057,7 +2056,7 @@ display: none;
     color: #fff;
     font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: .1px;
+    letter-spacing: 1px;
     padding: 1rem;
 }
 .container{
@@ -2096,7 +2095,7 @@ display: none;
     display: none;
 }
 .nav-list{
-    position: relative;
+    position: initial;
     width: initial;
     height: initial;
     background-color: transparent;
@@ -2104,10 +2103,6 @@ display: none;
     justify-content: initial;
     opacity: 1;
     transform:scale(1);
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: .1px;
-    padding: 0rem 0rem;
 }
 .nav-item:not(last-child)
 {
@@ -2185,11 +2180,10 @@ text-align: center;
 display: flex;
 justify-content: center;
 align-items: center;
-
 }
 @media screen and (min-width:780px){
     .header{
-        height:3rem;
+        height:6rem;
     }
     .header .active{
         height: 6rem;
@@ -2215,36 +2209,3 @@ align-items: center;
 
         margin-bottom: 0rem;
     }
-    .sm-link {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
-
-.sm-link:hover,
-.sm-link:focus,
-.sm-link:active {
-    transform: scale(1.1);
-    color: #cca42f;
-}
-a{
-    text-decoration: none;
-    color: inherit;
-}
-ul{
-    list-style: none;
-}
-section{
-    padding: 5rem;
-}			
-    /*Making Website responsive*/
-
-@media screen and (min-width:1080px){
- section{
-        padding: 10rem 0;
- }

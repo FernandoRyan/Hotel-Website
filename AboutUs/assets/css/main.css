@@ -1991,7 +1991,7 @@
     left: 0;
     background-color:var( --transparent-black);
     z-index: 999;
-    transition: all .65s;
+    transition: background-color .5s ,height .5s;
 }
 .header.active{
     background-color: var(--purple-solid);
@@ -2186,10 +2186,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-.logo img {
-max-width: 80%;
-height: 60px;
-}
 @media screen and (min-width:780px){
     .header{
         height:3rem;
@@ -2216,39 +2212,5 @@ height: 60px;
     }
     .footer-heading{
 
-        margin-bottom: 2rem;
+        margin-bottom: 0rem;
     }
-    
-    .sm-link {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
-
-.sm-link:hover,
-.sm-link:focus,
-.sm-link:active {
-    transform: scale(1.1);
-    color: #cca42f;
-}			
-    a{
-    text-decoration: none;
-    color: inherit;
-}
-ul{
-    list-style: none;
-}
-section{
-    padding: 5rem;
-}
-    /*Making Website responsive*/
-
-@media screen and (min-width:1080px){
- section{
-        padding: 10rem 0;
- }
