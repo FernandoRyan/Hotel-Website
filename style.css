@@ -196,14 +196,14 @@ display: none;
 }
 /*Booking section styles*/
 .color{
-    background-color: #000000;
+    background-color: var(--transparent-darkblue);
 }
 td{
     margin-left: 2px;
     margin-right: 3px;
 }
 .form-head{
-    font-size: 5rem;
+    font-size: 2rem;
 
 }
 .input{
@@ -608,19 +608,3 @@ align-items: center;
 .subtitle{
     font-size: 5rem
 }
-.sm-link {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
-
-.sm-link:hover,
-.sm-link:focus,
-.sm-link:active {
-    transform: scale(1.1);
-}           
