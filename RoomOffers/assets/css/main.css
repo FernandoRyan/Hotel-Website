@@ -214,8 +214,13 @@
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 2.3em;
 		line-height: 1.5em;
+		margin-bottom: 5rem;
+		text-align: center;
+		font-family: Palatino;
+		text-shadow: 2px 3px #000000;
+
 	}
 
 	h6 {
@@ -713,7 +718,7 @@
 
 
 
-/* Section/Article */
+/* Section/Article 
 
 	section.special, article.special, header.special {
 		text-align: center;
@@ -1790,7 +1795,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#banner {
-				padding: 8em 0 6em 0;
+				padding: 8em 0 2em 0;
 			}
 
 		}
@@ -1991,7 +1996,7 @@
     left: 0;
     background-color:var( --transparent-black);
     z-index: 999;
-    transition: background-color .5s ,height .5s;
+    transition: all 0.65s;
 }
 .header.active{
     background-color: var(--purple-solid);
@@ -2131,7 +2136,7 @@ display: none;
 .footer{
     height: 30rem;
     padding :2rem 0;
-    background-color: var(--transparent-darkblue);
+    background-color: #919191;
 }
 .footer-content-brand
 {
@@ -2163,6 +2168,23 @@ text-align: center;
     transition: background color .5s;
 
 }
+.sm-link {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.sm-link:hover,
+.sm-link:focus,
+.sm-link:active {
+    transform: scale(1.1);
+    color: #cca42f;
+}				
 .sm-link{
     color:var(--transparent-darkblue);
     display: flex;
@@ -2186,6 +2208,10 @@ display: flex;
 justify-content: center;
 align-items: center;
 
+}
+.logo img {
+max-width: 80%;
+height: 60px;
 }
 @media screen and (min-width:780px){
     .header{
@@ -2213,9 +2239,161 @@ align-items: center;
     }
     .footer-heading{
 
-        margin-bottom: 0rem;
+        margin-bottom: 2rem;
     }
-    }/*Making Website responsive*/
+    }
+    .btn-white
+    {
+        background:#fff;
+        color:#000;
+        border-radius:0;
+        border:solid 2px #b7b7b7;
+        overflow:hidden;
+        font-size:1.4375rem;
+        font-weight:400;
+        padding:0.75rem 2rem 0.75rem 2rem;
+        display: inline-block;
+        vertical-align: middle;box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        transition:all 0.4s ease 0s;
+        text-transform:uppercase;
+        letter-spacing:2px;
+        text-align:left;
+        position:relative;
+    }
+    .btn-white:hover
+    {
+        background:#c1b73a;color:#fff;border:solid 1px ;
+    }
+    section-head{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.heading-rooms{
+    display: block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-heading{
+    color: ;
+     display: block;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+
+}
+.grid{
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+.grid-item{
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
+transition: opacity 1s ease-in-out;
+
+}
+.grid-item:hover{
+     opacity:0.7;
+}
+.rating{
+    color: orange;
+}
+.paragraph{
+    color: #b0a06c;
+    margin-bottom: 1.5rem;
+}
+.roooms{
+    background-color: #f2f6f9;
+}
+
+/*.image-wrap{
+    position: relative;
+    height: 30rem;
+}
+.image-wrap::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+}*/
+.main{
+    margin-bottom: 1rem;
+}
+
+
+
+.room-image{
+ width: 100%;
+ height:100%;   
+ object-fit:cover;
+}
+.room-name{
+    color:#fff;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Gotham';
+
+}
+.room-price{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: 'Courgette';
+}
+.per-night{
+    font-size: 1.7rem;
+}
+/*Global Styles*/
+.lux{
+    font-size: 10px;
+
+    font-family: "Open Sans", sans serif;
+    font-size: 1.7rem;
+    color: var(--dark-color);
+}
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: transparent;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+    a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+section{
+    padding: 5rem;
+}
+    /*Making Website responsive*/
 
 @media screen and (min-width:1080px){
  section{
