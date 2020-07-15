@@ -57,9 +57,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
-ul{
+/*ul{
     list-style: none;
-}
+}*/
 section{
     padding: 5rem;
 }
@@ -125,8 +125,10 @@ section{
     justify-content: space-between;
 }
 .logo img {
-max-width: 80%;
-height: 60px;
+max-width: 120px;
+height: 40px;
+margin-left: 0;
+margin-right: 2px;
 }
 .hamburger-menu{
     font-size: 2.7rem;
@@ -490,65 +492,107 @@ transition: opacity 1s ease-in-out;
 }
 
 /*Footer Styling*/
+/*Footer Styling*/
 .footer{
-    height: 30rem;
-    padding :2rem 0;
-    background-color: var(--transparent-darkblue);
-}
-.footer-content-brand
-{
-    margin-bottom:2rem; 
-}
-
-.footer .paragraph{
-color: #fff;
-text-align: center;
-}
-
-.footer-heading{
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 2.5rem;
-    color: #fff;
-}
-.socail-media{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5rem;
-}
-.sm-link{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    display: flex;
-    margin-right: 1rem;
-    transition: background color .5s;
+	background-color: #303036;
+	color: #d3d3d3;
+	font-weight: bold;
+	height: 400px;
+	position: relative;
 
 }
-.sm-link{
-    color:var(--dark-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.footer .footer-content{
+	height: 350px;
+	display: flex;
 }
-.sm-link i
-{
-    margin:auto;
-     display: flex;
-    justify-content: center;
-    text-align: center;
+.footer .footer-content .links ul a{
+display: block;
+margin-bottom:10px;
+font-size: 1.5rem;
+
 }
-.footer-center
-{
-    color: #fff;
-    text-align: center;
+
+.footer .footer-content .links ul a:hover{
+	color:#05f7ff;
+	margin-left: 15px;
+	transition all:.4s; 
+
 }
-.logo{
+
+
+.footer .footer-content .footer-section{
+	flex:1;
+	padding: 25px;
+}
+
+
+.footer .footer-content .about h1 span{
+color: #cca42f;
+}
+
+.footer .footer-content .about .socails a{
+
+border: 1px solid grey;
+width: 45px;
+height: 41px;
+padding-top: 5px;
+margin-right: 5px;
 display: flex;
 justify-content: center;
 align-items: center;
+text-align: center;
+display: inline-block;
+font-size: 1.3rem;
+border-radius: 5px;
 }
+
+
+.btn-subscribe{
+	   background:#fff;
+        color:#000;
+        border-radius:0;
+        border:solid 1px #b7b7b7;
+        overflow:hidden;
+        font-size:1rem;
+        font-weight:400;
+        padding:0.75rem 0.75rem 0.75rem 0.75rem;
+        display: inline-block;
+        vertical-align: middle;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        transition:all 0.4s ease 0s;
+        text-transform:uppercase;
+        letter-spacing:2px;
+        text-align:left;
+        position:relative;
+    }
+.btn-subscribe:hover
+    {
+        background:#251f44;color:#fff;border:solid 1px ;
+    }
+
+
+.footer .footer-Bottom{
+background-color: #343a40;
+color: #686868;
+height: 50px;
+width: 100%;
+text-align: center;
+bottom: 0px;
+left: 0px;
+padding-top: 20px;
+}
+
 @media screen and (min-width:780px){
+	.heading{
+		font-size: 23px;
+		 color: #cca42f;
+	}
+	.subtitle{
+		font-size: 13px;
+		 color: #cca42f;
+	}
+	
     .header{
         height:6rem;
     }
@@ -576,12 +620,23 @@ align-items: center;
 
         margin-bottom: 0rem;
     }
-    }/*Making Website responsive*/
+    }
+
+   /*Making Website responsive*/
 
 @media screen and (min-width:1080px){
  section{
         padding: 10rem 0;
  }
+ .heading{
+
+		 font-size: 4.8rem;
+		 color: #cca42f;
+	}
+	.subtitle{
+	 font-size: 3.8rem;
+		 color: #cca42f;
+	}
  /*header style*/
 .hamburger-menu{
     display: none;
