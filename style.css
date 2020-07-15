@@ -583,7 +583,7 @@ left: 0px;
 padding-top: 20px;
 }
 
-@media screen and (min-width:780px){
+@media screen and (max-width:780px){
 	.heading{
 		font-size: 23px;
 		 color: #cca42f;
@@ -603,25 +603,27 @@ padding-top: 20px;
     .title{
         font-size: 8rem;   
     }
-    /*#hotel-facilities .hotel-facilities-images .img-holder{margin-bottom:8px;height:100rem;}*/
-    /*Footer section*/
-    /*.footer{
-        overflow-x: hidden;
-    }*/
    
-    .footer-content-brand{
-        margin-bottom: 0;
-        flex:0 0 50%;
+    .heading{
+    font-size: 4rem;
+}
+.subtitle{
+    font-size: 3rem
     }
-    .footer .paragraph {
-        margin-top: 2.5rem;
-    }
-    .footer-heading{
+    table{
+visibility: hidden;
+}
 
-        margin-bottom: 0rem;
-    }
-    }
+.footer-section {
+	font-size: 12px;
+}
+.color{
+	height: 0px;
+	width: 0px;
+	color: white;
+}
 
+}
    /*Making Website responsive*/
 
 @media screen and (min-width:1080px){
@@ -664,4 +666,5 @@ padding-top: 20px;
 }
 .subtitle{
     font-size: 5rem
+}
 }
