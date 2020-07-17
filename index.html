@@ -53,7 +53,6 @@
 			</nav>
 		</div>
 	</header>
-	<main>
 		<div class="hero">
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -96,60 +95,51 @@
 </a>
 </div>
 </div>
-</main>
-<div class="color"> 
-<table >
-      <form action="" class="form">
-        <td class="form-head">
-          <label for="Check-in" class="input">Check in</label>
-          <input type="date" id="Check-in"></input> 
-        </td>
-        <td class="form-head">
-          <label for="Check-out" class="input">Check out</label>
-          <input type="date" id="Check-out"></input>  
-        </td>
-        <td class="form-head">
-        <label for="rooms" class="input" id="rooms">Rooms</label>
-          <select class="options" id="adults">
-            <option value="0">1</option>
-            <option value="0">2</option>
-            <option value="0">3</option>
-            <option value="0">4</option>
-            <option value="0">5</option>
-            <option value="0">6</option>
-          </select>
-        </td>
-        <p>&nbsp;</p>
-        <td class="form-head">
-          <label for="adults"class="input" id="adults">Adults</label>
-          <select class="options" id="adults">
-            <option value="0">1</option>
-            <option value="0">2</option>
-            <option value="0">3</option>
-            <option value="0">4</option>
-            <option value="0">5</option>
-            <option value="0">6</option>
-          </select>
-        </td>
-        <td class="form-head">
-          <label for="Children" class="input" id="Children">Children</label>
-          <select class="options" id="adults">
-            <option value="0">1</option>
-            <option value="0">2</option>
-            <option value="0">3</option>
-            <option value="0">4</option>
-            <option value="0">5</option>
-            <option value="0">6</option>
-          </select>
-        </td>
-        <td>
-           <label class="input"></label>
-          <a href="#" class="btn btn-white">Check Avaliability</a> 
-        </td>
-      </form>
-    </div>
-  </table>
-</div>
+<section class="booking">
+	<div class="container">
+		<form name="form" method="POST" action="" class="form book-form">
+		
+			<div class="input-group">
+				<label for="checkin" class="input-label">Check in</label>
+				<input type="date" class="input" id="checkin">
+			</div>
+			<div class="input-group">
+				<label for="checkout" class="input-label">Check out</label>
+				<input type="date"  class="input" id="checkout">
+			</div>
+			<div class="input-group">
+				<label for="adults" class="input-label">Adults</label>
+				<select class="options" id="adults">
+				<option value="0">0</option>
+				<option value="0">1</option>
+				<option value="0">2</option>
+				<option  value="0">3</option>
+				<option  value="0">4</option>
+				<option  value="0">5</option>
+				<option  value="0">6</option>
+				<option  value="0">7</option>
+				</select>
+			</div>
+			<div class="input-group">
+				<label for="children" class="input-label">Children</label>
+				<select class="options" id="Children">
+				<option value="0">0</option>
+				<option value="0">1</option>
+				<option value="0">2</option>
+				<option  value="0">3</option>
+				<option  value="0">4</option>
+				<option  value="0">5</option>
+				<option  value="0">6</option>
+				<option  value="0">7</option>
+				</select>
+			</div>
+			<div>
+			<br>
+			<button class=" form-white">Search</button>
+			</div>
+		</form>
+	</div>
+</section>
 		<div id="hotel-introduction">
     	<div class="container fullwidth">
         	<div class="row">
