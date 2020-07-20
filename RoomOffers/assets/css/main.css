@@ -2264,6 +2264,11 @@ height: 60px;
     {
         background:#c1b73a;color:#fff;border:solid 1px ;
     }
+    .btn-white:click
+    {
+    	content: 'View Less';
+    	display: block;
+    }
     section-head{
     text-align: center;
     margin-bottom: 5rem;
