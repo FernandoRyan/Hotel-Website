@@ -2263,11 +2263,11 @@ height: 60px;
     .btn-white:hover
     {
         background:#c1b73a;color:#fff;border:solid 1px ;
-    }
+    } 
     .btn-white:click
     {
-    	content: 'View Less';
-    	display: block;
+    	display: none;
+
     }
     section-head{
     text-align: center;
