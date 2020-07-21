@@ -3,8 +3,8 @@ let hamburgermenu = document.querySelector('.hamburger-menu');
 
 
 window.addEventListener('scroll',function(){
-	let windowPosition=window.scrollY<0 ;
-	header.classList.toggle('active',window.scrollY>0)
+    let windowPosition=window.scrollY<0 ;
+    header.classList.toggle('active',window.scrollY>0)
 });
 
 
