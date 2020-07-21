@@ -14,14 +14,7 @@
     --purple-transparent-alt: rgba(50, 10, 75, .5);
     --purple-light: #8f50fb;
     --transparent-black:rgba(0, 0, 0, .5);
-}
-
-		
-		
-		
-		
-		
-	
+} 
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -456,10 +449,11 @@ height: 60px;
 
 
 .room-image{
- width: 75%;
+ width: 97%;
  height:75%;   
  object-fit:cover;
  box-shadow: 1px 3px 25px 0px #3d3d3d;
+ text-align: center;
 }
 .room-name{
     color:#fff;
@@ -472,11 +466,13 @@ height: 60px;
 .room-price{
     display: block;
     font-size: 1.6rem;
+    text-align: left;
     font-weight: bold;
     font-family: 'Courgette';
 }
 .per-night{
     font-size: 1.7rem;
+    text-align: left;
 }
 /*Global Styles*/
 .lux{
@@ -527,11 +523,27 @@ height: 60px;
 .bottom-line a {
     color: #fff;
 }
+ul{
+  color: #999999;
+  font-family: Microsoft Sans Serif;
+}
+table{
+  margin-left: 2%;
+  margin-right: 2%;
+  
+  
+  border-spacing: 20px;
 
 
-    a{
-    text-decoration: none;
-    color: inherit;
+}
+
+
+td{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 1px;
+  background-color: black;
 }
 ul{
     list-style: none;
