@@ -92,7 +92,7 @@
 /* Type */
 
 	body {
-		background-color: #29475c;
+		background-color: #f4f4df;
 		color: #d6d6d6;
 		margin: 0;
 	}  
@@ -381,7 +381,7 @@ height: 60px;
         padding:0.75rem 2rem 0.75rem 2rem;
         display: inline-block;
         vertical-align: middle;
-        box-shadow: 1px 3px 25px 0px #3d3d3d;
+        
         transition:all 0.4s ease 0s;
         text-transform:uppercase;
         letter-spacing:2px;
@@ -391,6 +391,7 @@ height: 60px;
     .btn-white:hover
     {
         background:#c1b73a;color:#fff;border:solid 1px ;
+        box-shadow: 1px 3px 25px 0px #3d3d3d;
     } 
     
 }
@@ -541,11 +542,11 @@ td{
   padding-bottom: 15px;
   padding-left: 15px;
   padding-right: 1px;
-  background-color: #f4f4df;
+  background-color: #dbcfa4;
 }
 td:hover
 {
-	box-shadow: 1px 1px 5px #b0b0b0;
+	box-shadow: 1px 1px 10px #807e79;
 }
 ul{
     list-style: none;
