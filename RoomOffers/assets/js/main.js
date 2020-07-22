@@ -24,5 +24,12 @@ for (i = 0; i < coll.length; i++) {
       content.style.display = "block";
     }
   });
+} 
+function myFunction() {
+  var x = document.getElementById("my");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
 }
-
