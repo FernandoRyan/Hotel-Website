@@ -1673,7 +1673,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color:var( --transparent-black);
+    background-color:var( --purple-solid);
     z-index: 999;
     transition: all 0.65s;
 }
@@ -1681,7 +1681,7 @@
 	background-color: #cca42f;
 }
 .header.active{
-    background-color: var(--purple-solid);
+    background-color: var(--transparent-black);
 }
 /*Header styles-nav*/
 .nav{
