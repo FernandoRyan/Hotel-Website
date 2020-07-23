@@ -1,5 +1,5 @@
 body{
- background-color:  #fff;
+ background-color:  #fff ;
 }
 hr.new {
   border-top: 1px solid #cca42f;
@@ -35,11 +35,11 @@ hr.new {
   height: 1000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 1s;
-  margin-left: 10%;
+  margin-left: 4%;
   padding-top: 0.5%;
 }
 #calander:hover{
-    box-shadow: 0px 20px 20px #cca42f;
+    box-shadow: 0px 0px 15px #cca42f;
 }
 td.days{
   padding: 7;
@@ -55,7 +55,7 @@ td{
 }
 #calandernum{
   margin-left: 17%;
-  color: #cca42f;
+  color: #666666;
   font-size: 25;
 }
 
@@ -153,12 +153,12 @@ td{
     {
         background:#fff;
         color:#000;
-        border-radius:0;
+        border-radius:25px;
         border:solid 1px #b7b7b7;
         overflow:hidden;
         font-size:1.4375rem;
         font-weight:400;
-        padding:0.75rem 2rem 0.75rem 2rem;
+        padding:0.75rem 1rem 0.75rem 1.5rem;
         display: inline-block;
         vertical-align: middle; 
         transition:all 0.4s ease 0s;
