@@ -1,22 +1,22 @@
 body{
- background-color:  #2b2b2b;
+ background-color:  #FFF;
 }
 #middletexttopic{
   height: 30;
   width: 10%;
   background-color: none;
   margin-left: 45%;
-  color: white;
+  color: #cca42f;
   font-size: 20;
 }
 #block1{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   width: 88%;
   height: 350;
   margin-top: -30;
   margin-left: 85;
-  box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
 }
 img.up{
@@ -28,33 +28,33 @@ img.up{
   height: 350;
  }
  #block2{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   width:88% ;
   height: 350;
   margin-top: 30;
   margin-left: 85;
-  box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
  }
 #block3{
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   width: 88%;
   height: 350;
   margin-top: 20;
   margin-left: 85;
-  box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
 }
 #block1:hover{
-  box-shadow: 0px 20px 20px #4a4949;
+  box-shadow: 0px 0px 5.5px 2px #cca42f;
 }
 #block2:hover{
-  box-shadow: 0px 20px 20px #4a4949;
+  box-shadow: 0px 0px 5.5px 2px #cca42f;
 }
 #block3:hover{
-  box-shadow: 0px 20px 20px #4a4949;
+  box-shadow: 0px 0px 5.5px 2px #cca42f;
 }
 #inblocktext1{
   background-color: none;
@@ -74,4 +74,38 @@ img.up{
   margin-top: -340;
   font-size: 19;
   font-family: sans-serif;
+}
+  /*Footer Styling*/
+.footer{
+
+  width: device-width;
+    height: 20rem;
+    padding :2rem 0;
+    background-color: white;
+} 
+.footer .paragraph{
+color: #black;
+text-align: center;
+font-family: Arial;
+}
+
+.bottom-line {
+    display: grid;
+}
+.bottom-line p {
+    grid-column: 2;
+    justify-content: center;
+}
+.bottom-line {
+    background-color: #444554;
+}
+.logo{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.logo img {
+max-width: 80%;
+height: 60px;
 }
