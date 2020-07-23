@@ -1,30 +1,33 @@
-
-<!-- MIDDLE TABLE -->
+body{
+ background-color:  #2b2b2b;
+}
+#middletexttopic{
+  height: 30;
+  width: 10%;
+  background-color: none;
+  margin-left: 45%;
+  color: white;
+  font-size: 20;
+}
 #block1{
-
   background-color: black;
   color: white;
-  width:88% ;
+  width: 88%;
   height: 350;
-  margin-top: 30;
+  margin-top: -30;
   margin-left: 85;
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
 }
-
-
 img.up{
   width: 100%;
   height: 370;
 } 
-
  img.blockimg{
   width: 47.5%;
   height: 350;
  }
-
  #block2{
-
   background-color: black;
   color: white;
   width:88% ;
@@ -34,7 +37,6 @@ img.up{
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
  }
-
 #block3{
   background-color: black;
   color: white;
@@ -45,50 +47,24 @@ img.up{
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
 }
-
-
 #block1:hover{
   box-shadow: 0px 20px 20px #4a4949;
 }
-
 #block2:hover{
   box-shadow: 0px 20px 20px #4a4949;
 }
-
 #block3:hover{
   box-shadow: 0px 20px 20px #4a4949;
 }
-
-
-
-#bottomdiv{
-  width: 100%;
-  height: 50%;
-  margin-bottom: none;
-  margin-top: 20;
-  background-color: black;
-  }
-
-  table.bottomtable{
-  margin-left: 1050;
-  color: white;
-}
-td.bottomtd{
-  padding: 2;
-}
 #inblocktext1{
-
   background-color: none;
   width:45%;
   height: 300;
   margin-left:600;
   margin-top: -340;
   font-size: 19;
-  font-family: sans-serif;
-  
+  font-family: sans-serif; 
 }
-
-
 #inblocktext2{
 
   background-color: none;
