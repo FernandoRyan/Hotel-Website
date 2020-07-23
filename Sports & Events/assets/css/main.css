@@ -1,10 +1,12 @@
+
+<!-- MIDDLE TABLE -->
 #block1{
 
   background-color: black;
   color: white;
-  width: 88%;
+  width:88% ;
   height: 350;
-  margin-top: -30;
+  margin-top: 30;
   margin-left: 85;
   box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
   transition: 0.5s;
@@ -44,16 +46,6 @@ img.up{
   transition: 0.5s;
 }
 
-#block4{
-  background-color: black;
-  color: white;
-  width: 88%;
-  height: 350;
-  margin-top: 20;
-  margin-left: 85;
-  box-shadow: 0 4px 8px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
-  transition: 0.5s;
-}
 
 #block1:hover{
   box-shadow: 0px 20px 20px #4a4949;
@@ -67,9 +59,7 @@ img.up{
   box-shadow: 0px 20px 20px #4a4949;
 }
 
-#block4:hover{
-  box-shadow: 0px 20px 20px #4a4949;
-}
+
 
 #bottomdiv{
   width: 100%;
