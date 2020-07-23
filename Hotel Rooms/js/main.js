@@ -91,3 +91,19 @@ var x, i, j, l, ll, selElmnt, a, b, c;
      /*if the user clicks anywhere outside the select box,
      then close all select boxes:*/
      document.addEventListener("click", closeAllSelect);
+
+     let header = document.querySelector('.header');
+let hamburgermenu = document.querySelector('.hamburger-menu');
+
+
+window.addEventListener('scroll',function(){
+    let windowPosition=window.scrollY<0 ;
+    header.classList.toggle('active',window.scrollY>0)
+});
+
+
+hamburgermenu.addEventListener("click", function(){
+ header.classList.toggle('menu-open');
+});
+var coll = document.getElementsByClassName("collapsible");
+var i;
