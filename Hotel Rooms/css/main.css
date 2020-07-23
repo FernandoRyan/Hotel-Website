@@ -1,5 +1,5 @@
 body{
- background-color:  #2b2b2b;
+ background-color:  #fff;
 }
 hr.new {
   border-top: 1px solid #cca42f;
@@ -39,7 +39,7 @@ hr.new {
   padding-top: 0.5%;
 }
 #calander:hover{
-    box-shadow: 0px 20px 20px #4a4949;
+    box-shadow: 0px 20px 20px #cca42f;
 }
 td.days{
   padding: 7;
