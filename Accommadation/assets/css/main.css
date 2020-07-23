@@ -358,9 +358,9 @@ height: 60px;
         border-radius:25px;
         border:solid 2px #b7b7b7;
         overflow:hidden;
-        font-size:1.4375rem;
+        font-size:1.4310rem;
         font-weight:400;
-        padding:0.75rem 2rem 0.75rem 2rem;
+        padding:0.75rem 1rem 0.75rem 1.5rem;
         display: inline-block;
         vertical-align: middle; 
         transition:all 0.4s ease 0s;
@@ -373,7 +373,30 @@ height: 60px;
     {
         background:#cca42f;color:#fff;border:solid 1px ;
         box-shadow: 1px 3px 10px 0px #3d3d3d;
-    } 
+    }
+    .btn-view
+    {
+        background:#fff;
+        color:#000;
+        border-radius:25px;
+        border:solid 2px #b7b7b7;
+        overflow:hidden;
+        font-size:1.4310rem;
+        font-weight:400;
+        padding:0.75rem 1rem 0.75rem 1.5rem;
+        display: inline-block;
+        vertical-align: middle; 
+        transition:all 0.4s ease 0s;
+        text-transform:uppercase;
+        letter-spacing:2px;
+        text-align:left;
+        position:relative;
+    }
+    .btn-view:hover
+    {
+        background:#cca42f;color:#fff;border:solid 1px ;
+        box-shadow: 1px 3px 10px 0px #3d3d3d;
+    }  
     
 }
 .heading-rooms{
