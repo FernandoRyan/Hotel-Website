@@ -2,25 +2,6 @@
   <head>
   	<title>ROOM ONE</title>
       <link rel="stylesheet" type="text/css" href="css/main.css">
-      <script>
-function startTime() {
-  var today = new Date();
-  var h = today.getHours();
-  var m = today.getMinutes();
-  var s = today.getSeconds();
-  m = checkTime(m);
-  s = checkTime(s);
-  document.getElementById('txt').innerHTML =
-  h + ":" + m + ":" + s;
-  var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
-  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-  return i;
-}
-</script>
-
-
   </head>
   <body onload="startTime()">
 <h1 id="h1top"> Deluxe lake view room</h1>
@@ -50,11 +31,11 @@ function checkTime(i) {
   </br>
       <table  border="0" id="calandernum">
       <tr>
-        <td style="color:#666666;">27</td>
-        <td style="color:#666666;">28</td>
-        <td style="color:#666666;">29</td>
-        <td style="color:#666666;">30</td>
-        <td style="color:#666666;">31</td>
+        <td style="color:#cca42f;">27</td>
+        <td style="color:#cca42f;">28</td>
+        <td style="color:#cca42f;">29</td>
+        <td style="color:#cca42f;">30</td>
+        <td style="color:#cca42f;">31</td>
         <td id="dayhover">1</td>
         <td style="color:red;" id="dayhover">2</td>
       </tr>
@@ -96,12 +77,12 @@ function checkTime(i) {
       </tr>
       <tr>
         <td id="dayhover">31</td>
-        <td style="color:#666666;">1</td>
-        <td style="color:#666666;">2</td>
-        <td style="color:#666666;">3</td>
-        <td style="color:#666666;">4</td>
-        <td style="color:#666666;">5</td>
-        <td style="color:#666666;">6</td>
+        <td style="color:#cca42f;">1</td>
+        <td style="color:#cca42f;">2</td>
+        <td style="color:#cca42f;">3</td>
+        <td style="color:#cca42f;">4</td>
+        <td style="color:#cca42f;">5</td>
+        <td style="color:#cca42f;">6</td>
       </tr>
     </table></br><tr><hr class="new"></tr>
     <table  border="0" style="margin-left:16%;">
@@ -142,7 +123,7 @@ function checkTime(i) {
   </tr>
 </table>
    </br>
-    <p style="text-align:center;margin-left:3%; margin-right:3%;">Check the availability and deside a date</p>
+    <p style="text-align:center;margin-left:3%; margin-right:3%;color: black;">Check availability and select date</p>
 
 
     <fprm>
@@ -197,59 +178,15 @@ function checkTime(i) {
 </br>
 
     </form>
-    <a href="#"><button class="btn-white" >BOOK NOW &rarr;</button></a>
+    <ul>
+    	<li>
+    		<a href="#"><button class="btn-white" >BOOK NOW &rarr;</button></a>
+    	</li>
+	</ul>
     </div>
 
-<!-- room info-->
-  <font=Microsoft Sans Serif>
 
-    <div id="info">
 
-        <h2>Tasteful interiors, lake panoramas</h2>
-        <p style="color:#999999;">Deluxe Lake View Rooms offer space and comfort with thoughtful contemporary design and local Sri Lankan touches. All rooms offer exceptional views over the Lake and the city beyond.</p>
-        <h2>Features</h2>
-        <ul style="color:#999999;">
-          <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
-          <li>Memorable views of the lake and city.</li>
-          <li>Large, modern bathroom with walk-in shower and separate bathtub.</li>
-          <li>Wi-Fi.</li>
-          <li>Bed with 300-thread-count lightweight duvet.</li>
-        </ul>
-        <h2>Amenities</h2>
-        <h2>Bath & Personal Care</h2>
-        <ul style="color:#999999;">
-          <li>Walk-in shower and/or separate bathtub</li>
-          <li>Bathroom mirror</li>
-          <li>Plush bathrobes and slippers</li>
-          <li>300 thread count linen</li>
-          <li>Pillow menu with hypoallergenic options</li>
-          <li>Iron and ironing board</li>
-        </ul>
-        <h2>Media & Entertainment</h2>
-        <ul  style="color:#999999;">
-          <li>High-speed Internet access</li>
-          <li>Flatscreen TV</li>
-          <li>Wide selection of international and local television channels</li>
-        </ul>
-        <h2>Office Equipment & Stationery</h2>
-        <ul  style="color:#999999;">
-          <li>Work space</li>
-          <li>International Direct Dial telephone with two lines</li>
-          <li>Electronic safe</li>
-          <li>USB charge ports</li>
-          <li>Digital alarm clock</li>
-          <li>Laptop charging socket</li>
-        </ul>
-        <h2>Refreshments</h2>
-        <ul  style="color:#999999;">
-          <li>Minibar</li>
-          <li>Water</li>
-          <li>Tea and coffee making facilities</li>
-        </ul>
-
-    </div>
-  </font>
-     </div>
      <script src="js/main.js"></script>
 
 
