@@ -378,12 +378,12 @@ height: 60px;
     {
         background:#fff;
         color:#000;
-        border-radius:25px;
+        border-radius: 5px;
         border:solid 2px #b7b7b7;
         overflow:hidden;
         font-size:1.4310rem;
         font-weight:400;
-        padding:0.75rem 1rem 0.75rem 1.5rem;
+        padding:0.75rem 2rem 0.75rem 2rem;
         display: inline-block;
         vertical-align: middle; 
         transition:all 0.4s ease 0s;
