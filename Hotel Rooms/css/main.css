@@ -187,6 +187,29 @@ td{
         background:#cca42f;color:#fff;border:solid 1px ;
         box-shadow: 1px 3px 10px 0px #3d3d3d;
     }
+    .btn-back
+    {
+        background:#616161;
+        color:#fff;
+        border-radius: 5px;
+        border:solid 1px #b7b7b7;
+        overflow:hidden;
+        font-size:1.4375rem;
+        font-weight:400;
+        padding:0.75rem 1rem 0.75rem 1.5rem;
+        display: inline-block;
+        vertical-align: middle; 
+        transition:all 0.4s ease 0s;
+        text-transform:uppercase;
+        letter-spacing:2px;
+        text-align:left;
+        position:relative;
+    }
+    .btn-back:hover
+    {
+        background:#cca42f;color:#fff;border:solid 1px ;
+        box-shadow: 1px 3px 10px 0px #3d3d3d;
+    }
 div.info {
   position: absolute;
   top: 140px;
@@ -195,6 +218,12 @@ div.info {
 li.pos {
   position: relative;
   left: 200px;
+}
+ul.bac {
+  position: relative;
+  left: 1050px;
+  margin-bottom: 50px;
+
 }
 .bottom-line {
     display: grid;
