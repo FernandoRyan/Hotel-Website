@@ -478,11 +478,12 @@ height: 60px;
 
 
 .room-image{
- width: 97%;
- height:75%;   
+ width: 90%;
+ height:68%;   
  object-fit:cover;
  box-shadow: 1px 1px 5px 0px #3d3d3d;
  text-align: center;
+ margin-left: 10px;
 }
 .room-name{
     color: black;
