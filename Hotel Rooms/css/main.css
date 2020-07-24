@@ -18,6 +18,10 @@ body{
 hr.new {
   border-top: 1px solid #cca42f;
 }
+.active:active{
+    border-radius: 5px;
+    transition-duration: 0s;
+}
 #button:hover{
   background-color:#489cf0;
   border-radius: 20px;
@@ -45,6 +49,7 @@ hr.new {
 #calander{
   background-color: #fcf8ed;
   color: white;
+  border-radius: 5px;
   width: 39%;
   height: 1000;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
@@ -54,7 +59,7 @@ hr.new {
   margin-bottom: 5%;
 }
 #calander:hover{
-    box-shadow: 0px 0px 15px #cca42f;
+    box-shadow: 0px 4px 15px #cca42f;
 }
 td.days{
   padding: 7;

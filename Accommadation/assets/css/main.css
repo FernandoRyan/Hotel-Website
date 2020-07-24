@@ -15,6 +15,10 @@
     --purple-light: #8f50fb;
     --transparent-black:rgba(0, 0, 0, .5);
 } 
+.active:active{
+    border-radius: 5px;
+    transition-duration: 0s;
+}
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -447,14 +451,14 @@ height: 60px;
     transform: translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     backface-visibility: hidden;
-    transition-duration: 0.1s;
+    transition-duration: 0.5s;
     transition-property: transform;
 }
 
 .grid-hover:hover,
 .grid-hover:focus,
 .grid-hover:active {
-    transform: scale(1.0);
+    transform: scale(1.005);
 }			
 .rating{
     color: orange;
@@ -585,6 +589,7 @@ table{
 td{
   padding-top: 15px;
   padding-bottom: 15px;
+  border-radius: 5px;
   padding-left: 15px;
   padding-right: 1px;
   background-color: #fcf8ed;
@@ -595,7 +600,7 @@ td{
 td:hover
 {
 	background-color: rgba(255, 254, 204, .5);
-	box-shadow: 0px 0px 9px #cca42f;
+	box-shadow: 0px 5px 9px #cca42f;
 } 
 .inline:hover
 {
