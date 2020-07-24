@@ -454,7 +454,7 @@ height: 60px;
 .grid-hover:hover,
 .grid-hover:focus,
 .grid-hover:active {
-    transform: scale(1.01);
+    transform: scale(1.0);
 }			
 .rating{
     color: orange;
