@@ -370,6 +370,10 @@ height: 60px;
   line-height: 25px;
   border-radius: 4px;
 } 
+.header a:hover {
+ 
+  color: #cca42f;
+}
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
