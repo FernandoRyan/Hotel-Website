@@ -153,6 +153,10 @@ display: none;
     letter-spacing: 2px;
     padding: 1rem;
 }
+
+
+
+
 /*Hero Section */
 .heading{
     color: #cca42f;
@@ -170,6 +174,7 @@ display: none;
     font-weight: 300;
     font-family: 'Gotham' ,cursive;
 }
+
 /*Booking section styles*/
 .container-booking{
 	max-height: 3rem;
