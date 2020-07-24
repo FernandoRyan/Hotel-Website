@@ -92,7 +92,7 @@ var x, i, j, l, ll, selElmnt, a, b, c;
      then close all select boxes:*/
      document.addEventListener("click", closeAllSelect);
 
-     let header = document.querySelector('.header');
+let header = document.querySelector('.header');
 let hamburgermenu = document.querySelector('.hamburger-menu');
 
 
