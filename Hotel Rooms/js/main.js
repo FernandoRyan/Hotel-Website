@@ -9,10 +9,7 @@ function startTime() {
   h + ":" + m + ":" + s;
   var t = setTimeout(startTime, 500);
 }
-function checkTime(i) {
-  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-  return i;
-}
+
 var x, i, j, l, ll, selElmnt, a, b, c;
      /*look for any elements with the class "custom-select":*/
      x = document.getElementsByClassName("custom-select");
@@ -107,3 +104,12 @@ hamburgermenu.addEventListener("click", function(){
 });
 var coll = document.getElementsByClassName("collapsible");
 var i;
+
+var d = new Date();
+          document.getElementById("demo1").innerHTML = d.getDate();
+
+var d = new Date();
+          document.getElementById("demo2").innerHTML = d.getMonth() + 1;
+
+var d = new Date();
+          document.getElementById("demo3").innerHTML = d.getFullYear();

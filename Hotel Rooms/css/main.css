@@ -48,21 +48,26 @@ hr.new {
   padding: 15;
   font-family: Microsoft Sans Serif;
 } 
-#calander{
+.calender{
   background-color: #fcf8ed;
   color: white;
   border-radius: 5px;
   width: 39%;
-  height: 1000;
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+  
+  /*box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);*/
   transition: 1s;
   margin-left: 4%;
   padding-top: 0.5%;
   margin-bottom: 5%;
 }
-#calander:hover{
-    box-shadow: 0px 4px 15px #cca42f;
+div.booknow{
+  position: absolute;
+  margin-left: 700px;
+  top: 140px;
 }
+/*.calender:hover{
+    box-shadow: 0px 4px 15px #cca42f;
+}*/
 td.days{
   padding: 7;
   color: #cca42f;
@@ -220,12 +225,12 @@ td{
         background:#cca42f;color:#fff;border:solid 1px ;
         box-shadow: 1px 3px 5px 0px #3d3d3d;
     }
-div.info {
+table.info {
   position: absolute;
-  top: 140px;
-  right: 50px;
+  margin-left: 20px;
+  
 }
-li.pos {
+div.pos {
   position: relative;
   left: 200px;
 }
