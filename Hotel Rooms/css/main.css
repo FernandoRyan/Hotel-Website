@@ -303,7 +303,7 @@ font-family: Arial;
     color: #cca42f;
 }       
 .sm-link{
-    color:var(--transparent-darkblue);
+    color: #c4c4c4;
     display: flex;
     justify-content: center;
     align-items: center;

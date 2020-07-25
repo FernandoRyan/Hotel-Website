@@ -329,13 +329,13 @@ font-family: Arial;
 .sm-link i
 {
     margin:auto;
-     display: flex;
+    display: flex;
     justify-content: center;
     text-align: center;
 }
 .footer-center
 {
-    color: #fff;
+    color: #c4c4c4;
     text-align: center;
 }
 .logo{
