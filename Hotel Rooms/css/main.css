@@ -47,7 +47,11 @@ hr.new {
   margin-left: 55%;
   padding: 15;
   font-family: Microsoft Sans Serif;
+
 } 
+.bline{
+  border:solid 20px #000;
+}
 .calender{
   background-color: #fcf8ed;
   color: white;
@@ -87,13 +91,13 @@ td{
 }
 
 #demo1{
-  color: #cca42f;
+  color: rgba(32, 64, 81);
 }
 #demo2{
-  color: #cca42f;
+  color: rgba(32, 64, 81);
 }
 #demo3{
-  color: #cca42f;
+  color: rgba(32, 64, 81);
 }
 #timetabletd{
   padding: 0;
@@ -112,7 +116,7 @@ td{
   font-size: 15;
   padding-left: 10px;
 }
-#booktxt{
+.txt{
   font-size: 18;
 }
 
@@ -122,12 +126,19 @@ td{
   font-family: Arial;
 }
 
-.custom-select select {
-  display: none; /*hide original SELECT element:*/
+select {
+  position: absolute; 
+  width: 115px;
+  height: 40px;
+  margin-left: 10px;
+  font-size: 18px;
+  padding: 9px;
+  background-color: rgba(32, 64, 81);
+  color: #e3e3e3;
 }
 
 .select-selected {
-  background-color: #cca42f;
+  background-color: rgba(32, 64, 81);
 
 }
 
@@ -184,7 +195,7 @@ td{
         border-radius:25px;
         border:solid 1px #b7b7b7;
         overflow:hidden;
-        font-size:1.4375rem;
+        font-size:1.2rem;
         font-weight:400;
         padding:0.75rem 1rem 0.75rem 1.5rem;
         display: inline-block;
@@ -225,14 +236,16 @@ td{
         background:#cca42f;color:#fff;border:solid 1px ;
         box-shadow: 1px 3px 5px 0px #3d3d3d;
     }
-table.info {
-  position: absolute;
+div.info {
+  
   margin-left: 20px;
+  margin-bottom: -450px;
+
   
 }
 div.pos {
   position: relative;
-  left: 200px;
+  margin-left: 200px;
 }
 .bac {
   position: relative;
@@ -538,4 +551,13 @@ display: none;
     font-size: 1px;
     font-size: normal;
 }
-
+.sideimg{
+  width: 100%;
+  height: 360;
+  box-shadow: 1px 3px 5px 0px #3d3d3d;
+}
+.imgpos{
+  position: absolute;
+  margin-left:700px;
+  top: 780px;
+}
