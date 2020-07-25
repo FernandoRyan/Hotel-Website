@@ -25,7 +25,7 @@
 						<a href="../ContactUs/Contact.html" class="nav-link"><span class="hvr-grow">Contact Us</span></a>
 					</li>
 					<li class="nav-item">
-						<a href="#" class="nav-link"><span class="hvr-grow" style="color: #cca42f">Accommadation</span></a>
+						<a href="../Accommadation/Accommadation.html" class="nav-link"><span class="hvr-grow" style="color: #cca42f">Accommadation</span></a>
 					</li> 
 					<li class="nav-item">
 						<a href="../Facilities/facilities.html" class="nav-link"><span class="hvr-grow">Facilities</span></a>
@@ -48,14 +48,14 @@
 
 </br>
  
-   <!-- clander div-->
-      <div id="calander">
+   <!-- calender -->
+      <div class="calender">
 
         <h2 style="text-align:center; color:#999999;">Select Your Booking</h2>
 
-       <!-- calander-->
+       <!-- calender-->
       <table border="0" style="margin-left:17%;">
-      	<tr><hr class="new"></tr>
+        <tr><hr class="new"></tr>
       <tr style="color:white;font-size:23;">
         <td class="days">Mon</td>
         <td class="days">Tue</td>
@@ -123,39 +123,61 @@
         <td style="color:#cca42f;">5</td>
         <td style="color:#cca42f;">6</td>
       </tr>
-    </table></br><tr><hr class="new"></tr>
-    <table  border="0" style="margin-left:16%;">
+
+    </table></br><tr></tr>
+  </div>
+  <table>
+  <div class="info">
+
+    <font=Microsoft Sans Serif>
+        <h2 style="font-family: Courier New; font-size: 30px; color: #363636;"><b>Room Details</b></h2>
+        
+        <p style="color:#6b6b6b;">Superior King Room city-or courtyard view Rooms offer space and comfort with<br> thoughtful contemporary design and local Sri Lankan touches. All rooms offer<br> exceptional views over the Lake and the city beyond.</p>
+
+        <h2>Amenities</h2>
+        <ul style="color:#6b6b6b;">
+          <li>Alarm clock</li>
+          <li>Air conditioning</li>
+          <li>Bathrobes and Slippers</li>
+          <li>Laundry Service</li>
+          <li>Telephone with external line</li>
+          <li>Mini Bar</li>
+          <li>Daily Newspaper</li>
+          <li>Desk</li>
+          <li>Satalite TV</li>
+          <li>Safe box</li>
+          <li>Pool towels</li>
+          <li>Hair dryer</li>
+          <li>Internet access(WiFi)</li>
+        </ul> 
+    </div>
+  </font>
+</div>
+  <div class="bac">
+    <a href="../Accommadation/Accommadation.html"><button class="btn-back" > &larr; GO BACK</button></a>
+  </div></table>
+  <div class="imgpos">
+  <img class="sideimg" src="../Accommadation/images/room4.jpg">
+  </div>
+
+  <div class="booknow">
+  <table  border="0" style="margin-left:16%;">
   <tr>
-       <!-- inserting time and date-->
-        <td id="timetabletd"><div id="txt" ></div></td>
-        <td></td>  <td></td>  
+       <!-- inserting date-->
+        <h2 style="color: black;">Current Date</h2>
+        <td></td><td></td>  <td></td>  
         <td id="timetabletd" style="padding-left:0;">
           <p id="demo1"></p>
-
-          <script>
-          var d = new Date();
-          document.getElementById("demo1").innerHTML = d.getDate();
-          </script>
-
         </td>
-        <td id="timetabletd">:</td>
+        <td id="timetabletd">/</td>
         <td id="timetabletd">
 
           <p id="demo2"></p>
 
-          <script>
-          var d = new Date();
-          document.getElementById("demo2").innerHTML = d.getMonth() + 1;
-          </script>
         </td>
-         <td id="timetabletd">:</td>
+         <td id="timetabletd">/</td>
         <td id="timetabletd">
           <p id="demo3"></p>
-
-          <script>
-          var d = new Date();
-          document.getElementById("demo3").innerHTML = d.getFullYear();
-          </script>
 
 
         </td>
@@ -170,7 +192,7 @@
         <tr>
           <td style="text-align:left;">
 
-      <div class="custom-select scrollable" style="width:130px; float:left;">
+      <div class="scrollable" style="width:130px; float:left;">
     <select>
       <option value="0">Date:</option>
       <option value="1">1</option>
@@ -210,7 +232,7 @@
         </td>
       </br>
         <td style="text-align:left;">
-      <div class="custom-select scrollable" style="width:130px;float:left;">
+      <div class="scrollable" style="width:130px;float:left;">
     <select >
       <option value="0">Month:</option>
       <option value="1">January</option>
@@ -231,7 +253,7 @@
       </td>
 
       <td  style="text-align:left;">
-      <div class="custom-select scrollable" style="width:130px;float:left;">
+      <div class="scrollable" style="width:130px;float:right;">
     <select >
       <option value="0" >Year:</option>
       <option value="1">2020</option>
@@ -248,81 +270,36 @@
 </br>
   <table style="margin-left:3.5%;" border="0">
     <tr>
-      <td style="color:#cca42f;text-align:left;" id="booktxt">Enter your name</td>
+      <td style="color:rgba(32, 64, 81);text-align:left;" class="txt">Enter your name</td>
       <td style="width:69.5%;padding-left:5%;"><input type="text" id="bookinput"></td>
     </tr>
     <tr>
-      <td style="color:#cca42f; text-align:left;" id="booktxt">Email</td>
+      <td style="color:rgba(32, 64, 81); text-align:left;" class="txt">Email</td>
       <td style="width:69.5%;padding-left:5%;"><input type="text" id="bookinput"></td>
     </tr>
     <tr>
-      <td style="color:#cca42f;text-align:left;" id="booktxt">Phone:</td>
+      <td style="color:rgba(32, 64, 81);text-align:left;" class="txt">Phone:</td>
       <td style="width:69.5%;padding-left:5%;"><input type="numbers" id="bookinput"></td>
     </tr>
   </table>
 </br>
 
     </form>
-    <ul>
-    	<li class="pos">
-    		<a href="#"><button class="btn-white" >BOOK NOW &rarr;</button></a>
-    	</li>
-	</ul>
+    
+      <div class="pos">
+        <a href="#"><button class="active btn-white" >BOOK NOW &rarr;</button></a>
+      </div>
+  
     </div>
-    <!-- room info-->
-  <font=Microsoft Sans Serif>
-
-    <div class="info">
-
-        <h2>Tasteful interiors, lake panoramas</h2>
-        <p style="color:#6b6b6b;">Deluxe Lake View Rooms offer space and comfort with thoughtful contemporary design and local Sri Lankan touches. All rooms offer exceptional views over the Lake and the city beyond.</p>
-        <h2>Features</h2>
-        <ul style="color:#6b6b6b;">
-          <li>Each room offers 42 sqm / 452 sqf of luxury.</li>
-          <li>Memorable views of the lake and city.</li>
-          <li>Large, modern bathroom with walk-in shower and separate bathtub.</li>
-          <li>Wi-Fi.</li>
-          <li>Bed with 300-thread-count lightweight duvet.</li>
-        </ul>
-        <h2>Amenities</h2>
-        <h2>Bath & Personal Care</h2>
-        <ul style="color:#6b6b6b;">
-          <li>Walk-in shower and/or separate bathtub</li>
-          <li>Bathroom mirror</li>
-          <li>Plush bathrobes and slippers</li>
-          <li>300 thread count linen</li>
-          <li>Pillow menu with hypoallergenic options</li>
-          <li>Iron and ironing board</li>
-        </ul>
-        <h2>Media & Entertainment</h2>
-        <ul  style="color:#6b6b6b;">
-          <li>High-speed Internet access</li>
-          <li>Flatscreen TV</li>
-          <li>Wide selection of international and local television channels</li>
-        </ul>
-        <h2>Office Equipment & Stationery</h2>
-        <ul  style="color:#6b6b6b;">
-          <li>Work space</li>
-          <li>International Direct Dial telephone with two lines</li>
-          <li>Electronic safe</li>
-          <li>USB charge ports</li>
-          <li>Digital alarm clock</li>
-          <li>Laptop charging socket</li>
-        </ul>
-        <h2>Refreshments</h2>
-        <ul  style="color:#6b6b6b;">
-          <li>Minibar</li>
-          <li>Water</li>
-          <li>Tea and coffee making facilities</li>
-        </ul>
-
-    </div>
-  </font>
-  <div class="bac">
-    <a href="../Accommadation/Accommadation.html"><button class="btn-back" > &larr; GO BACK</button></a>
   </div>
+  
+
+    
+    <!-- room info-->
+  
+  
   <!-- Footer -->
-			<footer class="footer">
+      <footer class="footer">
           <div class="container"> 
             <div class="footer-content-brand">
               <a href="#" class="logo">
@@ -353,7 +330,7 @@
 
      <script src="js/main.js"></script>
      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"   
-  type="text/javascript"></script>
+      type="text/javascript"></script>
 
 
   </body>
