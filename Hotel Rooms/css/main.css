@@ -229,9 +229,9 @@ li.pos {
   position: relative;
   left: 200px;
 }
-ul.bac {
+.bac {
   position: relative;
-  left: 1050px;
+  margin-left: 1050px;
   margin-bottom: 100px;
 
 }
@@ -533,3 +533,4 @@ display: none;
     font-size: 1px;
     font-size: normal;
 }
+
