@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body{
  background-color:  #FFF;
  margin: 0;
@@ -39,7 +42,7 @@ body{
 }
 .header{
     width: 100%;
-    height: 1.5rem;
+    height: 3rem;
     display: flex;
     font-family: Arial;
     align-items: center;
@@ -187,9 +190,12 @@ display: none;
   height: 30;
   width: 10%;
   background-color: none;
-  margin-left: 45%;
+  margin-left: 43%;
   color: #cca42f;
-  font-size: 20;
+  font-size: 30;
+  margin-top: 70px;
+  margin-bottom: 120px;
+  text-shadow: 1px 3px 2px #000000;
 }
 #block1{
   background-color: white;
@@ -198,8 +204,8 @@ display: none;
   height: 350;
   margin-top: -30;
   margin-left: 85;
-  box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
-  transition: 0.5s;
+  box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 5px 10px  rgba(0, 0, 0, 0.29);
+  transition: 0.1s;
 }
 img.up{
   width: 100%;
@@ -216,8 +222,8 @@ img.up{
   height: 350;
   margin-top: 30;
   margin-left: 85;
-  box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
-  transition: 0.5s;
+  box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 6px 10px 0 rgba(0, 0, 0, 0.29);
+  transition: 0.1s;
  }
 #block3{
   background-color: white;
@@ -226,17 +232,17 @@ img.up{
   height: 350;
   margin-top: 20;
   margin-left: 85;
-  box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
-  transition: 0.5s;
+  box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 6px 10px 0 rgba(0, 0, 0, 0.29);
+  transition: 0.1s;
 }
 #block1:hover{
-  box-shadow: 0px 0px 5.5px 2px #cca42f;
+  box-shadow: 0px 2px 5px 2px #cca42f;
 }
 #block2:hover{
-  box-shadow: 0px 0px 5.5px 2px #cca42f;
+  box-shadow: 0px 2px 5px 2px #cca42f;
 }
 #block3:hover{
-  box-shadow: 0px 0px 5.5px 2px #cca42f;
+  box-shadow: 0px 2px 5px 2px #cca42f;
 }
 #inblocktext1{
   background-color: none;
@@ -260,6 +266,7 @@ img.up{
 
 .bottom-line {
     display: grid;
+    width: 100%;
 }
 .bottom-line p {
     grid-column: 2;
@@ -278,6 +285,7 @@ img.up{
     height: 20rem;
     padding :2rem 0;
     background-color: #2e2e2e;
+    margin-top: 70px;
 } 
 
 .footer .paragraph{
