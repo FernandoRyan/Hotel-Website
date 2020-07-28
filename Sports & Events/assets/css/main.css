@@ -284,6 +284,11 @@ img.banner{
   
   
 }
+#rhstxt:hover{
+  position: absolute;
+  margin-left:650;
+
+}
 
 #lhstxt{
 
