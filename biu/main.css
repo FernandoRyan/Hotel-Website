@@ -290,7 +290,8 @@ font-family: Arial;
 .footer-heading{
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
     color: #fff;
 }
 .socail-media{
