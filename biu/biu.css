@@ -18,7 +18,8 @@ body, html {
 
 
   /* Center and scale the image nicely */
- 
+  background-position: center;
+  
  
   background-size:cover;
 }
@@ -27,11 +28,11 @@ body, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "montserrat",sans-serif;
+  
 }
 .contact-section{
-  background: url(bg.png) no-repeat center;
-  background-size: cover;
+  
+  
   padding: 40px 0;
   position: relative;
   width: 100%;
