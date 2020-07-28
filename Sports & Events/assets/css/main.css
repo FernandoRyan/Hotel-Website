@@ -221,12 +221,12 @@ img.banner{
 } 
  img.divimg{
   width: 40%;
-  height: 350;
+  height: 400;
 }
  img.divimg2{
   width: 40%;
   margin-left: 600;
-  height: 350;
+  height: 400;
 }
 #div1{
   background-color: white;
@@ -272,9 +272,9 @@ img.banner{
 #rhstxt{
   background-color: none;
   width:45%;
-  height: 300;
+  height: 400;
   margin-left:600;
-  margin-top: -340;
+  margin-top: -370;
   font-size: 19;
   font-family: sans-serif; 
 }
@@ -282,27 +282,14 @@ img.banner{
 
   background-color: none;
   width:45%;
-  height: 300;
+  height: 400;
   margin-left:40;
-  margin-top: -340;
+  margin-top: -300;
   font-size: 19;
   font-family: sans-serif;
 }
 
-.bottom-line {
-    display: grid;
-    width: 100%;
-}
-.bottom-line p {
-    grid-column: 2;
-    justify-content: center;
-}
-.bottom-line {
-    background-color: #444554;
-}
-.bottom-line a {
-    color: #fff;
-}
+
   /*Footer Styling*/
 .footer{
 
@@ -384,6 +371,20 @@ align-items: center;
 max-width: 80%;
 height: 60px;
 } 
+.bottom-line {
+    display: grid;
+    width: 100%;
+}
+.bottom-line p {
+    grid-column: 2;
+    justify-content: center;
+}
+.bottom-line {
+    background-color: #444554;
+}
+.bottom-line a {
+    color: #fff;
+}
     /*Hero section styling*/
     .title{
         font-size: 8rem;   
