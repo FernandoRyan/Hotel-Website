@@ -224,6 +224,7 @@ img.banner{
   height: 450;
   border:solid 7px black;
 }
+
  img.divimg2{
   width: 50%;
   margin-left: 600;
@@ -286,7 +287,8 @@ img.banner{
 }
 #rhstxt:hover{
   position: absolute;
-  margin-left:650;
+  margin-left:620;
+  transition-duration: 2s;
 
 }
 
