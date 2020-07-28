@@ -203,7 +203,7 @@ h6{
        
   /*Middle tables*/
 }
-#middletexttopic{
+#topic2{
   height: 30;
   width: 10%;
   background-color: none;
@@ -214,55 +214,62 @@ h6{
   margin-bottom: 120px;
   text-shadow: 1px 3px 2px #000000;
 }
-#block1{
+img.banner{
+  width: 100%;
+  height: 370;
+  margin-top: 45px;
+} 
+ img.divimg{
+  width: 40%;
+  height: 350;
+}
+ img.divimg2{
+  width: 40%;
+  margin-left: 600;
+  height: 350;
+}
+#div1{
   background-color: white;
   color: black;
   width: 88%;
-  height: 350;
+  height: 400;
   margin-top: -30;
   margin-left: 85;
   box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 5px 10px  rgba(0, 0, 0, 0.29);
   transition: 0.1s;
 }
-img.up{
-  width: 100%;
-  height: 370;
-  margin-top: 45px;
-} 
- img.blockimg{
-  width: 47.5%;
-  height: 350;
+
  }
- #block2{
+ #div2{
   background-color: white;
   color: black;
   width:88% ;
-  height: 350;
+  height: 400;
   margin-top: 30;
   margin-left: 85;
   box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 6px 10px 0 rgba(0, 0, 0, 0.29);
   transition: 0.1s;
  }
-#block3{
+#div3{
   background-color: white;
   color: black;
   width: 88%;
-  height: 350;
+  height: 400;
   margin-top: 20;
   margin-left: 85;
   box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 6px 10px 0 rgba(0, 0, 0, 0.29);
   transition: 0.1s;
 }
-#block1:hover{
+#div1:hover{
   box-shadow: 0px 2px 5px 2px #cca42f;
 }
-#block2:hover{
+#div2:hover{
   box-shadow: 0px 2px 5px 2px #cca42f;
 }
-#block3:hover{
+#div3:hover{
   box-shadow: 0px 2px 5px 2px #cca42f;
 }
-#inblocktext1{
+#rhstxt{
   background-color: none;
   width:45%;
   height: 300;
@@ -271,7 +278,7 @@ img.up{
   font-size: 19;
   font-family: sans-serif; 
 }
-#inblocktext2{
+#lhstxt{
 
   background-color: none;
   width:45%;
