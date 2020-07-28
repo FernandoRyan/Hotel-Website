@@ -220,15 +220,15 @@ img.banner{
   margin-top: 45px;
 } 
  img.divimg{
-  width: 100%;
+  width: 600;
   height: 400;
   border:solid 7px black;
 }
 
  img.divimg2{
-  width: 100%;
+  width: 500;
   margin-left: 600;
-  height: 450;
+  height: 400;
   border:solid 7px black;
 }
 #div1{
@@ -272,7 +272,7 @@ img.banner{
 #div3:hover{
   box-shadow: 0px 2px 5px 2px #cca42f;
 }
-#rhstxt{
+#rhstxt1{
   background-color: white;
   width:50%;
   height: 320;
@@ -286,7 +286,65 @@ img.banner{
   
   
 }
-#rhstxt:hover{
+#rhstxt1:hover{
+  position: absolute;
+  margin-left:620;
+  transition-duration: 2s;
+
+}
+#rhstxt2{
+  background-color: white;
+  width:50%;
+  height: 320;
+  margin-left:530;
+  margin-top: -370;
+  font-size: 20;
+  font-family: Lucida Console;
+  border:solid 20px white; 
+  position: absolute;
+  padding-left: 5px;
+  
+  
+}
+#rhstxt2:hover{
+  position: absolute;
+  margin-left:620;
+  transition-duration: 2s;
+
+}#rhstxt3{
+  background-color: white;
+  width:50%;
+  height: 320;
+  margin-left:600;
+  margin-top: 120;
+  font-size: 20;
+  font-family: Lucida Console;
+  border:solid 20px white; 
+  position: absolute;
+  padding-left: 5px;
+  
+  
+}
+#rhstxt3:hover{
+  position: absolute;
+  margin-left:620;
+  transition-duration: 2s;
+
+}#rhstxt4{
+  background-color: white;
+  width:50%;
+  height: 320;
+  margin-left:600;
+  margin-top: 120;
+  font-size: 20;
+  font-family: Lucida Console;
+  border:solid 20px white; 
+  position: absolute;
+  padding-left: 5px;
+  
+  
+}
+#rhstxt4:hover{
   position: absolute;
   margin-left:620;
   transition-duration: 2s;
@@ -298,7 +356,7 @@ img.banner{
   background-color: white;
   width:45%;
   height: 400;
-  margin-right: :600;
+  margin-right: :-600;
   margin-top: -400;
   font-size: 20;
   font-family: Lucida Console;
