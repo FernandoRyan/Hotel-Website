@@ -230,6 +230,14 @@ img.banner{
   margin-left: 40;
   box-shadow:  0px 0px 7px 5px #cca42f;;
 }
+.divimg:hover{
+  transform: scale(1.05);
+  transition-duration: 2s;
+}
+.divimg2:hover{
+  transform: scale(1.05);
+  transition-duration: 2s;
+}
 
  img.divimg2{
   width: 700;
