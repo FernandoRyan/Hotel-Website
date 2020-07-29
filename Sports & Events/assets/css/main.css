@@ -222,13 +222,14 @@ img.banner{
  img.divimg{
   width: 600;
   height: 400;
+  margin-left: 40;
   border:solid 7px black;
 }
 
  img.divimg2{
-  width: 500;
+  width: 700;
   margin-left: 600;
-  height: 400;
+  height: 450;
   border:solid 7px black;
 }
 #div1{
@@ -246,10 +247,10 @@ img.banner{
  #div2{
   background-color: white;
   color: black;
-  width:88% ;
+  width:10%;
   height: 400;
-  margin-top: 0;
-  margin-left: 85;
+  margin-top: -50;
+  margin-right: 80;
   box-shadow: 0 0 4px rgba(0, 0 , 0, 4), 0 6px 10px 0 rgba(0, 0, 0, 0.29);
   transition: 0.1s;
  }
@@ -277,7 +278,7 @@ img.banner{
   width:50%;
   height: 320;
   margin-left:600;
-  margin-top: 120;
+  margin-top: 20;
   font-size: 20;
   font-family: Lucida Console;
   border:solid 20px white; 
@@ -355,9 +356,9 @@ img.banner{
 
   background-color: white;
   width:45%;
-  height: 400;
-  margin-right: :-600;
-  margin-top: -400;
+  height: 350;
+  margin-left: 150;
+  margin-top: 50;
   font-size: 20;
   font-family: Lucida Console;
   border:solid 20px white; 
@@ -366,7 +367,7 @@ img.banner{
 }
 #lhstxt:hover{
   position: absolute;
-  margin-right: :620;
+  margin-left: 50;
   transition-duration: 2s;
 
 }
