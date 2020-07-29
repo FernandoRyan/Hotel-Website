@@ -223,7 +223,7 @@ img.banner{
   width: 600;
   height: 400;
   margin-left: 40;
-  box-shadow:  0px 3px 5px 3px #cca42f;;
+  box-shadow:  0px 0px 7px 5px #cca42f;;
 }
 
  img.divimg2{
@@ -231,7 +231,7 @@ img.banner{
   margin-left: 600;
   height: 450;
   
-  box-shadow:  0px 3px 5px 3px #cca42f;
+  box-shadow:  0px 0px 7px 5px #cca42f;
 }
 
 #rhstxt1{
