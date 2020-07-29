@@ -352,7 +352,7 @@ img.banner{
 
 }
 
-#lhstxt{
+#lhstxt1{
 
   background-color: white;
   width:45%;
@@ -365,7 +365,26 @@ img.banner{
   position: absolute;
   padding-right: : 5px;
 }
-#lhstxt:hover{
+#lhstxt1:hover{
+  position: absolute;
+  margin-left: 50;
+  transition-duration: 2s;
+
+}
+#lhstxt2{
+
+  background-color: white;
+  width:45%;
+  height: 350;
+  margin-left: 150;
+  margin-top: -400;
+  font-size: 20;
+  font-family: Lucida Console;
+  border:solid 20px white; 
+  position: absolute;
+  padding-right: : 5px;
+}
+#lhstxt2:hover{
   position: absolute;
   margin-left: 50;
   transition-duration: 2s;
