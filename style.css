@@ -87,6 +87,9 @@ section{
     z-index: 999;
     transition: all 0.75s;
 }
+.header a{
+    padding: 13px;
+}
 .header.active{
     background-color:var(--transparent-darkblue);
 }
@@ -666,6 +669,7 @@ transition: .4s;
 	
     .header{
         height:6rem;
+
     }
     .header .active{
         height: 6rem;
