@@ -58,9 +58,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
-/*ul{
+ul{
     list-style: none;
-}*/
+}
 section{
     padding: 5rem;
 }
@@ -88,7 +88,7 @@ section{
     transition: all 0.75s;
 }
 .header a{
-    padding: 13px;
+    padding: 16px;
 }
 .header.active{
     background-color:var(--transparent-darkblue);
