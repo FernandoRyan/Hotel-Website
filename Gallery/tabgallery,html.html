@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="nav.css">
+  <link rel="stylesheet" type="text/css" href="newgallery.css">
+</head>
+<body>
+<header class="header ">
+    <div class="container">
+      <nav  class="nav">
+          <div class="hamburger-menu">
+            <i class=" fas fa-bars"></i>
+            <i class=" fas fa-times"></i>
+        </div>    
+          <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"><span class="hvr-grow">Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="AboutUs/Aboutus.html" class="nav-link"><span class="hvr-grow">About Us</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="ContactUs/Contact.html" class="nav-link"><span class="hvr-grow">Contact Us</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><span class="hvr-grow">Room Offers</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><span class="hvr-grow">Hotel Reservation</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="Facilities/facility.html" class="nav-link"><span class="hvr-grow">Facilities</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="Gallery/gallery.html" class="nav-link"><span class="hvr-grow">Gallery</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="FAQ/FAQ.html" class="nav-link"><span class="hvr-grow">FAQ</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><span class="hvr-grow">Sports & Events</span></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section id="banner" style="background-image: url(img/img8.jpg);height:50%;width:100%;">
+				<h2><strong>Hotel Sanremo<br></strong></H2>
+				<h3>GALLERY</h3>
+				
+ </section>
+<div class="main">
+<h2>FILTER:</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+  <button class="btn" onclick="filterSelection('people')"> People</button>
+</div>
+<div class="gridd-container">
+  <div class="gridd-item">
+  	<div class="column nature">
+    <div class="content">
+      <img src="img/img1.jpg" alt="Mountains" style="width:100%">
+      <h4>Mountains</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+</div>
+  <div class="gridd-item">
+  	<div class="column nature">
+    <div class="content">
+    <img src="img/img2.jpg" alt="Lights" style="width:100%">
+      <h4>Lights</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  </div>
+  <div class="gridd-item">
+  	<div class="column nature">
+    <div class="content">
+    <img src="img/img3.jpg" alt="Nature" style="width:100%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  </div>  
+  <div class="gridd-item">
+  	<div class="column cars">
+    <div class="content">
+      <img src="img/img4.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  </div>
+  <div class="gridd-item">
+  	<div class="column cars">
+    <div class="content">
+    <img src="img/img5.jpg" alt="Car" style="width:100%">
+      <h4>Fast</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  </div>
+  <div class="gridd-item">
+  	<div class="column cars">
+    <div class="content">
+    <img src="img/img10.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+</div>  
+  <div class="gridd-item">
+  	<div class="column people">
+    <div class="content">
+      <img src="img/img11.jpg" alt="Car" style="width:100%">
+      <h4>Girl</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  </div>
+  <div class="gridd-item">
+  	<div class="column people">
+    <div class="content">
+    <img src="img/img10.jpg" alt="Car" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  </div>
+  <div class="gridd-item">
+  	<div class="column people">
+    <div class="content">
+    <img src="img/img11.jpg" alt="Car" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  </div>  
+</div>
+ <script src="script.js"></script>
+<script src="gal.js"></script>
+</body>
+</html>

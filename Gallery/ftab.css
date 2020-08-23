@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(174, 183, 190);
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 5px;
+    font-size: 17px;
+    width: 20%;
+}
+
+.tablink:hover {
+    background-color: #CCA42F;
+}
+
+.tablink:active {
+    background-color: #CCA42F;
+}
+
+.tablink:focus {
+    background-color: #CCA42F;
+}
+
+img {
+    height: 30%;
+    width: 97%;
+    margin: 8px 10px 8px 10px;
+    padding: 10px 40px 1opx 40px;
+}
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 70px 20px 0px 9px;
+    height: 100%;
+}

@@ -138,11 +138,17 @@ body {
     top: -30px;
 }
 
+
+/* #Tablet (Portrait) */
+
 @media only screen and (min-width: 768px) and (max-width: 959px) {
     .container {
         width: 768px;
     }
 }
+
+
+/*  #Mobile (Portrait) - Note: Design for a width of 320px */
 
 @media only screen and (max-width: 767px) {
     .container {
@@ -157,6 +163,9 @@ body {
     }
 }
 
+
+/* #Mobile (Landscape) - Note: Design for a width of 480px */
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .container {
         width: 70%;
@@ -168,6 +177,9 @@ body {
 
 
 /* #Clearing */
+
+
+/* Self Clearing Goodness */
 
 .container:after {
     content: "\0020";

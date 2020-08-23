@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Portfolio Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="newgallery.css">
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <script type="text/javascript" src="test.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            var filterList = {
+
+                init: function() {
+
+                    // MixItUp plugin
+                    $('#portfoliolist').mixItUp({
+                        selectors: {
+                            target: '.portfolio',
+                            filter: '.filter'
+                        },
+                        load: {
+                            filter: '.ex'
+                        }
+                    });
+
+                }
+
+            };
+
+            filterList.init();
+
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <header class="header ">
+        <div class="container">
+            <nav class="nav">
+                <div class="hamburger-menu">
+                    <i class=" fas fa-bars"></i>
+                    <i class=" fas fa-times"></i>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link"><span class="hvr-grow">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="AboutUs/Aboutus.html" class="nav-link"><span class="hvr-grow">About Us</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="ContactUs/Contact.html" class="nav-link"><span class="hvr-grow">Contact Us</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><span class="hvr-grow">Room Offers</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><span class="hvr-grow">Hotel Reservation</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Facilities/facility.html" class="nav-link"><span class="hvr-grow">Facilities</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Gallery/gallery.html" class="nav-link"><span class="hvr-grow">Gallery</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="FAQ/FAQ.html" class="nav-link"><span class="hvr-grow">FAQ</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><span class="hvr-grow">Sports & Events</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="banner" style="background-image: url(img/img8.jpg);height:50%;width:100%;">
+        <h2><strong>Hotel Sanremo<br></strong></H2>
+        <h3>GALLERY</h3>
+
+    </section>
+    <div class="container">
+
+        <ul id="filters" class="clearfix">
+            <li><span class="filter active" data-filter=".ex, .in, .we, .ro">All</span></li>
+            <li><span class="filter" data-filter=".ex">Exterior</span></li>
+            <li><span class="filter" data-filter=".in">Interior</span></li>
+            <li><span class="filter" data-filter=".we">Wellness</span></li>
+            <li><span class="filter" data-filter=".ro">Rooms</span></li>
+        </ul>
+
+        <div id="portfoliolist">
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img id="myImg" src="exterior/ex1.jpg" alt="Snow">
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                    </div>
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Visual Infography</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex2.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Visual Infography</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex3.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Visual Infography</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex4.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Visual Infography</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex5.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Visual Infography</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex6.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex7.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex8.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex9.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex10.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex11.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex12.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex13.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex14.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex15.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex16.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex17.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex18.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex19.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ex" data-cat="ex">
+                <div class="portfolio-wrapper">
+                    <img src="exterior/ex20.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Exterior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in1.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in2.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in3.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in4.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in5.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in6.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in7.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in8.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in9.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in10.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in11.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in12.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in13.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in14.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in15.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio in" data-cat="in">
+                <div class="portfolio-wrapper">
+                    <img src="interior/in16.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Interior</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio we" data-cat="we">
+                <div class="portfolio-wrapper">
+                    <img src="wellness/we1.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Wellness</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio we" data-cat="we">
+                <div class="portfolio-wrapper">
+                    <img src="wellness/we2.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Wellness</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio we" data-cat="we">
+                <div class="portfolio-wrapper">
+                    <img src="wellness/we3.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Wellness</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio we" data-cat="we">
+                <div class="portfolio-wrapper">
+                    <img src="wellness/we4.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Wellness</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio we" data-cat="we">
+                <div class="portfolio-wrapper">
+                    <img src="wellness/we5.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Wellness</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio we" data-cat="we">
+                <div class="portfolio-wrapper">
+                    <img src="wellness/we6.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Wellness</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio we" data-cat="we">
+                <div class="portfolio-wrapper">
+                    <img src="wellness/we7.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Wellness</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio we" data-cat="we">
+                <div class="portfolio-wrapper">
+                    <img src="wellness/we8.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Wellness</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio we" data-cat="we">
+                <div class="portfolio-wrapper">
+                    <img src="wellness/we9.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Wellness</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio we" data-cat="we">
+                <div class="portfolio-wrapper">
+                    <img src="wellness/we10.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Wellness</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio we" data-cat="we">
+                <div class="portfolio-wrapper">
+                    <img src="wellness/we11.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Wellness</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro1.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro2.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro3.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro4.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro5.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro6.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro7.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro8.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro9.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro10.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro11.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro12.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro13.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro14.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro15.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro16.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro17.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro18.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro19.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro20.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio ro" data-cat="ro">
+                <div class="portfolio-wrapper">
+                    <img src="rooms/ro21.jpg" alt="" />
+                    <div class="label">
+                        <div class="label-text">
+                            <a class="text-title">Bird Document</a>
+                            <span class="text-category">Rooms</span>
+                        </div>
+                        <div class="label-bg"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- container -->
+
+</body>
+
+</html>
