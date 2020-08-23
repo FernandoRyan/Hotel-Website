@@ -15,15 +15,15 @@ body {
 }
 
 .tablink:hover {
-    background-color: rgba(32, 64, 81, 0.8);
+    background-color: rgba(32, 64, 81);
 }
 
 .tablink:active {
-    background-color: rgba(32, 64, 81, 0.8);
+    background-color: rgba(32, 64, 81);
 }
 
 .tablink:focus {
-    background-color: rgba(32, 64, 81, 0.8);
+    background-color: rgba(32, 64, 81);
 }
 
 img {
