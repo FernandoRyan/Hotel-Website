@@ -32,7 +32,8 @@
 }
 .header a{
     font-size: 0.9rem;
-    padding: 45px;
+    padding: 35px;
+    padding-left: 60px;
 }
 .header.active{
     background-color: var(--transparent-darkblue);
