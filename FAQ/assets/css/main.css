@@ -2203,7 +2203,7 @@ align-items: center;
     height: 20rem;
     padding :2rem 0;
     background-color: #2e2e2e;
-    margin-top: 130px;
+    margin-top: 20px;
 } 
 
 .footer .paragraph{
@@ -2215,7 +2215,7 @@ font-family: Arial;
 .footer-heading{
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 2.5rem;
+    margin-bottom: 0rem;
     color: #fff;
 }
 .socail-media{
@@ -2305,12 +2305,14 @@ height: 60px;
 }
 .bottom-line p {
     grid-column: 2;
+    font-size: 15px;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 .bottom-line {
     background-color: #444554;
-    height: 5%;
+    margin-bottom: -200px;
+    height: 2.5rem;
 }
 .bottom-line a {
     color: #fff;
