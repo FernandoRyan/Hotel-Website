@@ -51,7 +51,11 @@
    <!-- calender -->
       <div class="calender">
 
+<<<<<<< HEAD
         <h2 style="text-align:center; color:#999999;">Check For Availability</h2>
+=======
+        <h2 style="text-align:center; color:#999999;">Select Your Booking</h2>
+>>>>>>> 150386c1bd05d19e11ada95dbf1bdc0735b60288
 
        <!-- calender-->
       <table border="0" style="margin-left:17%;">
@@ -82,16 +86,28 @@
         <td id="dayhover">3</td>
         <td id="dayhover">4</td>
         <td id="dayhover">5</td>
+<<<<<<< HEAD
         <td style="color:#174ebd;">6</td>
         <td style="color:#174ebd;">7</td>
+=======
+        <td id="dayhover">6</td>
+        <td id="dayhover">7</td>
+>>>>>>> 150386c1bd05d19e11ada95dbf1bdc0735b60288
         <td id="dayhover">8</td>
         <td style="color:red;" id="dayhover">9</td>
       </tr>
       <tr>
+<<<<<<< HEAD
         <td style="color:#174ebd;">10</td>
         <td id="dayhover">11</td>
         <td id="dayhover">12</td>
         <td style="color:#174ebd;">13</td>
+=======
+        <td id="dayhover">10</td>
+        <td id="dayhover">11</td>
+        <td id="dayhover">12</td>
+        <td id="dayhover">13</td>
+>>>>>>> 150386c1bd05d19e11ada95dbf1bdc0735b60288
         <td id="dayhover">14</td>
         <td id="dayhover">15</td>
         <td style="color:red;" id="dayhover">16</td>
@@ -110,7 +126,11 @@
         <td id="dayhover">25</td>
         <td id="dayhover">26</td>
         <td id="dayhover">27</td>
+<<<<<<< HEAD
         <td style="color:#174ebd;">28</td>
+=======
+        <td id="dayhover">28</td>
+>>>>>>> 150386c1bd05d19e11ada95dbf1bdc0735b60288
         <td id="dayhover">29</td>
         <td style="color:red;" id="dayhover">30</td>
       </tr>
@@ -121,7 +141,11 @@
         <td style="color:#cca42f;">3</td>
         <td style="color:#cca42f;">4</td>
         <td style="color:#cca42f;">5</td>
+<<<<<<< HEAD
         <td  style="color:#174ebd;">6</td>
+=======
+        <td style="color:#cca42f;">6</td>
+>>>>>>> 150386c1bd05d19e11ada95dbf1bdc0735b60288
       </tr>
 
     </table></br><tr></tr>
