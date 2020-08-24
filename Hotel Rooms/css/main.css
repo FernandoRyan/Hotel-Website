@@ -563,3 +563,8 @@ display: none;
   margin-left:650px;
   top: 780px;
 }
+label{
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    color: rgba(32, 64, 81);
+}
