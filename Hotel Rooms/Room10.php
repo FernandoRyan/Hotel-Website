@@ -22,7 +22,7 @@
 						<a href="../AboutUs/Aboutus.html" class="nav-link"><span class="hvr-grow">About Us</span></a>
 					</li>
 					<li class="nav-item">
-						<a href="../ContactUs/Contact.html" class="nav-link"><span class="hvr-grow">Contact Us</span></a>
+						<a href="../ContactUs/Contact.php" class="nav-link"><span class="hvr-grow">Contact Us</span></a>
 					</li>
 					<li class="nav-item">
 						<a href="../Accommadation/Accommadation.html" class="nav-link"><span class="hvr-grow" style="color: #cca42f">Accommadation</span></a>
@@ -34,7 +34,7 @@
 						<a href="../Gallery/gallery.html" class="nav-link"><span class="hvr-grow">Gallery</span></a>
 					</li>
 					<li class="nav-item">
-						<a href="../FAQ/FAQ.html" class="nav-link"><span class="hvr-grow">FAQ</span></a>
+						<a href="../FAQ/FAQ.php" class="nav-link"><span class="hvr-grow">FAQ</span></a>
 					</li>
 					<li class="nav-item">
 						<a href="../Sports & Events/Sports & Events.html" class="nav-link"><span class="hvr-grow">Sports & Events</span></a>
