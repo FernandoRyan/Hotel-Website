@@ -48,11 +48,11 @@
 
   <h1>Contact Us</h1>
   
-  <form class="contact-form" action="#" method="post">
-    <input type="text" class="contact-form-text" placeholder="Your name">
-    <input type="email" class="contact-form-text" placeholder="Your email">
-    <textarea class="contact-form-text" placeholder="Your message"></textarea>
-    <input type="submit" class="contact-form-btn" value="Send">
+  <form class="contact-form" action="biu.php" method="POST" name="form1">
+    <input type="text" class="contact-form-text" name="cname" placeholder="Your name">
+    <input type="email" class="contact-form-text" name="email" placeholder="Your email">
+    <textarea class="contact-form-text" name="msg" placeholder="Your message"></textarea>
+    <input type="submit" name="submit" class="contact-form-btn" value="Send">
   </form>
 
 </section>
@@ -98,5 +98,3 @@
 
 
 
-</body>
-</html>

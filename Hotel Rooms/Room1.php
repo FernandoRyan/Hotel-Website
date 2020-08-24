@@ -1,6 +1,6 @@
 <html>
   <head>
-  	<title>ROOM ONE</title>
+  	<title>ROOM</title>
   	<meta charset="utf-8" />
       <link rel="stylesheet" type="text/css" href="css/main.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
@@ -43,7 +43,7 @@
 			</nav>
 		</div>
 		</section> 
-<h1 id="h5">Deluxe Room - harbour view</h1>
+<h1 id="h5">Superior King Room city-or courtyard view</h1>
 <hr style="width:87%;border-top: 2px solid #616161">
 
 </br>
@@ -51,11 +51,11 @@
    <!-- calender -->
       <div class="calender">
 
-        <h2 style="text-align:center; color:#999999;">Select Your Booking</h2>
+        <h2 style="text-align:center; color:#999999;">Check For Availability</h2>
 
        <!-- calender-->
       <table border="0" style="margin-left:17%;">
-        <tr><hr class="new"></tr>
+      	<tr><hr class="new"></tr>
       <tr style="color:white;font-size:23;">
         <td class="days">Mon</td>
         <td class="days">Tue</td>
@@ -82,16 +82,16 @@
         <td id="dayhover">3</td>
         <td id="dayhover">4</td>
         <td id="dayhover">5</td>
-        <td id="dayhover">6</td>
-        <td id="dayhover">7</td>
+        <td style="color:#174ebd;">6</td>
+        <td style="color:#174ebd;">7</td>
         <td id="dayhover">8</td>
         <td style="color:red;" id="dayhover">9</td>
       </tr>
       <tr>
-        <td id="dayhover">10</td>
+        <td style="color:#174ebd;">10</td>
         <td id="dayhover">11</td>
         <td id="dayhover">12</td>
-        <td id="dayhover">13</td>
+        <td style="color:#174ebd;">13</td>
         <td id="dayhover">14</td>
         <td id="dayhover">15</td>
         <td style="color:red;" id="dayhover">16</td>
@@ -110,7 +110,7 @@
         <td id="dayhover">25</td>
         <td id="dayhover">26</td>
         <td id="dayhover">27</td>
-        <td id="dayhover">28</td>
+        <td style="color:#174ebd;">28</td>
         <td id="dayhover">29</td>
         <td style="color:red;" id="dayhover">30</td>
       </tr>
@@ -121,7 +121,7 @@
         <td style="color:#cca42f;">3</td>
         <td style="color:#cca42f;">4</td>
         <td style="color:#cca42f;">5</td>
-        <td style="color:#cca42f;">6</td>
+        <td  style="color:#174ebd;">6</td>
       </tr>
 
     </table></br><tr></tr>
@@ -157,7 +157,7 @@
     <a href="../Accommadation/Accommadation.html"><button class="btn-back" > &larr; GO BACK</button></a>
   </div></table>
   <div class="imgpos">
-  <img class="sideimg" src="../Accommadation/images/room4.jpg">
+  <img class="sideimg" src="../Accommadation/images/room2.jpg">
   </div>
 
   <div class="booknow">
@@ -187,107 +187,38 @@
     <p style="text-align:center;margin-left:3%; margin-right:3%;color: black;">Check availability and select date</p>
 
 
-    <fprm>
-      <table border="0" style="margin-left:4%;">
-        <tr>
-          <td style="text-align:left;">
-
-      <div class="scrollable" style="width:130px; float:left;">
-    <select>
-      <option value="0">Date:</option>
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
-      <option value="6">6</option>
-      <option value="7">7</option>
-      <option value="8">8</option>
-      <option value="9">9</option>
-      <option value="10">10</option>
-      <option value="11">11</option>
-      <option value="12">12</option>
-      <option value="13">13</option>
-      <option value="14">14</option>
-      <option value="15">15</option>
-      <option value="16">16</option>
-      <option value="17">17</option>
-      <option value="18">18</option>
-      <option value="19">19</option>
-      <option value="20">20</option>
-      <option value="21">21</option>
-      <option value="22">22</option>
-      <option value="23">23</option>
-      <option value="24">24</option>
-      <option value="25">25</option>
-      <option value="26">26</option>
-      <option value="27">27</option>
-      <option value="28">28</option>
-      <option value="29">29</option>
-      <option value="30">30</option>
-      <option value="31">31</option>
-
-    </select>
-      </div>
-        </td>
-      </br>
-        <td style="text-align:left;">
-      <div class="scrollable" style="width:130px;float:left;">
-    <select >
-      <option value="0">Month:</option>
-      <option value="1">January</option>
-      <option value="2">February</option>
-      <option value="3">March</option>
-      <option value="4">April</option>
-      <option value="5">May</option>
-      <option value="6">June</option>
-      <option value="7">July</option>
-      <option value="8">August</option>
-      <option value="9">September</option>
-      <option value="10">October</option>
-      <option value="11">November</option>
-      <option value="12">December</option>
-
-      </select>
-      </div>
-      </td>
-
-      <td  style="text-align:left;">
-      <div class="scrollable" style="width:130px;float:right;">
-    <select >
-      <option value="0" >Year:</option>
-      <option value="1">2020</option>
-      <option value="2">2021</option>
-      <option value="3">2022</option>
-      <option value="4">2023</option>
-      <option value="5">2024</option>
-
-    </select>
-      </div>
-      </td>
-    </tr>
-  </table>
+<form action="roomqry.php" method="POST" name="form1">
+      
 </br>
   <table style="margin-left:3.5%;" border="0">
     <tr>
+      <td style="color:rgba(32, 64, 81);text-align:left;" id="booktxt">
+        <label for="start">Check-In:</label>
+
+      <td style="width:69.5%;padding-left:5%;"><input type="date" id="bookinput"  name="bdate"   min="2020-01-01" max="2023-12-31"></td>
+      </td>
+    </tr>
+    <tr> 
       <td style="color:rgba(32, 64, 81);text-align:left;" class="txt">Enter your name</td>
-      <td style="width:69.5%;padding-left:5%;"><input type="text" id="bookinput"></td>
+      <td style="width:69.5%;padding-left:5%;"><input type="text" name="name" id="bookinput"></td>
     </tr>
     <tr>
       <td style="color:rgba(32, 64, 81); text-align:left;" class="txt">Email</td>
-      <td style="width:69.5%;padding-left:5%;"><input type="text" id="bookinput"></td>
+      <td style="width:69.5%;padding-left:5%;"><input type="text" name="email" id="bookinput"></td>
     </tr>
     <tr>
       <td style="color:rgba(32, 64, 81);text-align:left;" class="txt">Phone:</td>
-      <td style="width:69.5%;padding-left:5%;"><input type="numbers" id="bookinput"></td>
+      <td style="width:69.5%;padding-left:5%;"><input type="numbers" name="phone" id="bookinput"></td>
     </tr>
+    <br>
+
   </table>
 </br>
+      <input type="hidden" name="room" value="Superior King Room city-or courtyard view">
+      <input type="submit" class="btn-white pos" name="submit" value="book now">
 
     </form>
-    
-      <div class="pos">
-        <a href="#"><button class="active btn-white" >BOOK NOW &rarr;</button></a>
+        
       </div>
   
     </div>
@@ -299,7 +230,7 @@
   
   
   <!-- Footer -->
-      <footer class="footer">
+			<footer class="footer">
           <div class="container"> 
             <div class="footer-content-brand">
               <a href="#" class="logo">
@@ -335,3 +266,5 @@
 
   </body>
 </html>
+
+
