@@ -230,7 +230,7 @@ select:hover{
         text-transform:uppercase;
         letter-spacing:2px;
         text-align:left;
-        position:relative;
+        position:absolute;
         box-shadow: 1px 3px 4px 0px #3d3d3d;
     }
     .btn-back:hover
@@ -250,8 +250,8 @@ div.pos {
   margin-left: 200px;
 }
 .bac {
-  position: relative;
-  margin-left: 1050px;
+  position: absolute;
+  left: 15500px;
   margin-bottom: 100px;
 
 }
@@ -562,4 +562,9 @@ display: none;
   position: absolute;
   margin-left:650px;
   top: 780px;
+}
+label{
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    color: rgba(32, 64, 81);
 }
