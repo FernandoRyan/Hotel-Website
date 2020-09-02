@@ -104,6 +104,8 @@ max-width: 120px;
 height: 40px;
 margin-left: 0;
 margin-right: 2px;
+transform: translate(-100rem);
+animation: slidein 1s forwards;
 }
 .hamburger-menu{
     font-size: 2.7rem;
@@ -111,6 +113,7 @@ margin-right: 2px;
     cursor: pointer;
     position: relative;
     z-index: 1500;
+}
 }
 .hamburger-menu .fa-times{
     display: none;
@@ -143,6 +146,14 @@ display: none;
     opacity: 1;
     transform: scale(1);
 }
+@keyframes slidein{
+	from{
+
+	}
+	to{
+		transform: translate(0);
+	}
+}
 .nav-item:not(last-child){
 
     margin-bottom: .5rem;
@@ -155,6 +166,8 @@ display: none;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 1rem;
+      transform: translate(+100rem);
+      animation: slidein 1s forwards;
 }
 
 
